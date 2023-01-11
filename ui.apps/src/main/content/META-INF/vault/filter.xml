@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/apps/headless-shark/clientlibs"/>
+    <filter root="/apps/headless-shark/components"/>
+    <filter root="/apps/headless-shark/i18n"/>
+</workspaceFilter>
