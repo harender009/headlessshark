@@ -1,0 +1,7 @@
+{
+    "scripts": [
+        "create path (sling:OrderedFolder) /content/dam/headless-shark",
+        "create path (nt:unstructured) /content/dam/headless-shark/jcr:content",
+        "set properties on /content/dam/headless-shark/jcr:content\n  set cq:conf{String} to /conf/headless-shark\n  set jcr:title{String} to \"Head Less Shark\"\nend"
+    ]
+}
