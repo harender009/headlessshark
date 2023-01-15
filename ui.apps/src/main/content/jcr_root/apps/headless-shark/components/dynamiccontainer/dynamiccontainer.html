@@ -1,0 +1,12 @@
+<sly data-sly-use.dynamicContainerModel="com.hs.core.models.DynamicContainerModel" />
+<sly data-sly-use.templates="core/wcm/components/commons/v1/templates.html"/>
+<sly data-sly-call="${templates.placeholder @ isEmpty = !dynamicContainerModel.component}"/>
+
+<div data-component="${ dynamicContainerModel.component}" 
+data-mf-id="${ dynamicContainerModel.component}" 
+data-mf-data ="${ dynamicContainerModel.jsonData ? dynamicContainerModel.cfJson : ''}"
+data-page-type="${ dynamicContainerModel.pageType }"
+data-persona="${ dynamicContainerModel.persona }"
+data-eligible-personas="${ dynamicContainerModel.eligiblePersona }"
+></div>
+

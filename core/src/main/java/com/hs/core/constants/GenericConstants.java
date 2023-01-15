@@ -75,7 +75,7 @@ public class GenericConstants {
 	    
 	    public static final String URL_EXT_HTML=".html";
 	    
-	    public static final String MF_APPLICATION_TAG_PATH="/content/dam/hs/in/en/content-fragments/configuration/micrfrontend-mapping-configuration/mf-application";
+	    public static final String MF_APPLICATION_TAG_PATH="/content/dam/headless-shark/in/en/content-fragments/configuration/micrfrontend-mapping-configuration/mf-application";
 	    
 	    public static final String AUTHOR = "author";
 		

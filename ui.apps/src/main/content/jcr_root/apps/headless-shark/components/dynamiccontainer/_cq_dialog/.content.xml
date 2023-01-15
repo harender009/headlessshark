@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:granite="http://www.adobe.com/jcr/granite/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="nt:unstructured"
+    jcr:title="Dynamic Component Container"
+    sling:resourceType="cq/gui/components/authoring/dialog"
+    extraClientlibs="[core.wcm.components.contentfragment.hs.dialog]">
+    <content
+        granite:class="cmp-contentfragment__editor"
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="granite/ui/components/coral/foundation/container">
+        <granite:data
+            jcr:primaryType="nt:unstructured"
+            component-path="${requestPathInfo.suffix}"/>
+        <items jcr:primaryType="nt:unstructured">
+            <tabs
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="granite/ui/components/coral/foundation/tabs"
+                maximized="{Boolean}true">
+                <items jcr:primaryType="nt:unstructured">
+                    <properties
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Properties"
+                        sling:resourceType="granite/ui/components/coral/foundation/container"
+                        margin="{Boolean}true">
+                        <items jcr:primaryType="nt:unstructured">
+                            <column
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="granite/ui/components/coral/foundation/container">
+                                <items jcr:primaryType="nt:unstructured">
+	                                <personas
+										jcr:primaryType="nt:unstructured"
+										sling:resourceType="cq/gui/components/coral/common/form/tagfield"
+										autocreateTag="{Boolean}true" fieldLabel="Select personas"
+										multiple="{Boolean}true" name="./personas"
+										rootPath="/content/cq:tags/hs/variations/persona" />
+									<component jcr:primaryType="nt:unstructured"
+										sling:resourceType="cq/gui/components/coral/common/form/tagfield"
+										autocreateTag="{Boolean}true" fieldLabel="Select component"
+										multiple="{Boolean}false" name="./component" required="{Boolean}true"
+										rootPath="/content/cq:tags/hs/dynamic-components" />
+									<sendjsondata jcr:primaryType="nt:unstructured"
+										sling:resourceType="granite/ui/components/coral/foundation/form/checkbox"
+										fieldDescription="Check to send data as JSON" name="./jsonData"
+										text="Check to send data as JSON" uncheckedValue="{Boolean}false"
+										value="{Boolean}true" />  	
+                                    <fragmentPath
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="dam/cfm/components/cfpicker"
+                                        emptyText="Enter or select Content Fragment"
+                                        fieldDescription="Path to the Content Fragment to display."
+                                        fieldLabel="Content Fragment"
+                                        name="./fragmentPath"
+                                        pickerTitle="Select Content Fragment"
+                                        rootPath="/content/dam"/>
+                                    <variationName
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="granite/ui/components/coral/foundation/form/select"
+                                        fieldDescription="Specify which variation to display"
+                                        fieldLabel="Variation"
+                                        name="./variationName">
+                                        <datasource
+                                            jcr:primaryType="nt:unstructured"
+                                            sling:resourceType="core/wcm/components/contentfragment/v1/datasource/variations"
+                                            componentPath="${requestPathInfo.suffix}"
+                                            fragmentPath="${param.fragmentPath}"/>
+                                        <granite:data
+                                            jcr:primaryType="nt:unstructured"
+                                            field-path="${requestPathInfo.resourcePath}"/>
+                                    </variationName>
+                                </items>
+                            </column>
+                        </items>
+                    </properties>
+                </items>
+            </tabs>
+        </items>
+    </content>
+</jcr:root>
