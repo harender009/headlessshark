@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="929694b6-6f33-4588-93d5-c3ee1e11f4ae">
+    <jcr:content
+        cq:name="partner-navigation-login"
+        cq:parentPath="/content/dam/headless-shark/in/en/content-fragments/global-components/header1/login/navigation-login-items/persona-logins"
+        jcr:lastModified="{Date}2022-11-05T13:53:42.198Z"
+        jcr:lastModifiedBy="nibeditanandi"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="Partner Navigation Login"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2022-11-05T13:53:42.198Z">
+        <data
+            cq:model="/conf/headless-shark/settings/dam/cfm/models/navigation-login-items"
+            jcr:primaryType="nt:unstructured">
+            <master
+                jcr:mixinTypes="[cq:Taggable,dam:cfVariationNode]"
+                jcr:primaryType="nt:unstructured"
+                loginPopup="{Boolean}true"
+                loginPopup_x0040_LastModified="{Date}2022-11-05T13:53:42.149Z"
+                navigationLoginItemLabel="Partner Login"
+                navigationLoginItemLabel_x0040_LastModified="{Date}2022-11-05T13:53:42.149Z"
+                navigationLoginItemPath_x0040_LastModified="{Date}2022-11-05T13:53:36.416Z"/>
+        </data>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

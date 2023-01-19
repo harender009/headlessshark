@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="675ad584-30f2-447c-9f73-1a4116144272">
+    <jcr:content
+        cq:name="flexi-plus"
+        cq:parentPath="/content/dam/headless-shark/in/en/global-components/fare-types"
+        jcr:lastModified="{Date}2023-01-10T07:40:38.484Z"
+        jcr:lastModifiedBy="sakshishrivastava"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="Flexi Plus"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2023-01-10T07:40:38.484Z">
+        <data
+            cq:model="/conf/headless-shark/settings/dam/cfm/models/fare-type-items"
+            jcr:primaryType="nt:unstructured">
+            <master
+                jcr:mixinTypes="[cq:Taggable,dam:cfVariationNode]"
+                jcr:primaryType="nt:unstructured"
+                domesticCancellationCharges1="INR 3500"
+                domesticCancellationCharges1_x0040_LastModified="{Date}2023-01-10T07:40:38.335Z"
+                domesticCancellationcharges2="INR 500"
+                domesticCancellationcharges2_x0040_LastModified="{Date}2023-01-10T07:40:38.335Z"
+                domesticChangeCharges1="INR 3250"
+                domesticChangeCharges1_x0040_LastModified="{Date}2023-01-10T07:40:38.333Z"
+                domesticChangeCharges2="No Fee"
+                domesticChangeCharges2_x0040_LastModified="{Date}2023-01-10T07:40:38.333Z"
+                fareDescription="Hand baagage({}) + Check-in bag ({}) + Standard seat + Meal + Low Cancellation feee + No Change fee (Till 4days before departure)&#xa;"
+                fareDescription_x0040_ContentType="text/plain"
+                fareDescription_x0040_LastModified="{Date}2023-01-10T07:40:38.333Z"
+                fareLabel="Flexi Plus"
+                fareLabel_x0040_LastModified="{Date}2023-01-10T07:40:38.333Z"
+                fareType="J"
+                fareType_x0040_LastModified="{Date}2023-01-10T07:40:38.333Z"
+                internationalCancellationCharges1="INR 5000"
+                internationalCancellationCharges1_x0040_LastModified="{Date}2023-01-10T07:40:38.336Z"
+                internationalCancellationCharges2="INR 1000"
+                internationalCancellationCharges2_x0040_LastModified="{Date}2023-01-10T07:40:38.338Z"
+                internationalChangeCharges1="INR 5000"
+                internationalChangeCharges1_x0040_LastModified="{Date}2023-01-10T07:40:38.334Z"
+                internationalChangeCharges2="No Fee"
+                internationalChangeCharges2_x0040_LastModified="{Date}2023-01-10T07:40:38.334Z"/>
+        </data>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

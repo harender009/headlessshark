@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="260d7e80-4ac0-4e41-94de-b9800a89555a">
+    <jcr:content
+        cq:lastReplicated="{Date}2023-01-12T08:31:40.338Z"
+        cq:lastReplicatedBy="nidhigurania"
+        cq:lastReplicationAction="Activate"
+        cq:name="doctors-&amp;-nurses"
+        cq:parentPath="/content/dam/headless-shark/in/en/content-fragments/master-data/special-fares"
+        jcr:lastModified="{Date}2022-11-09T13:03:50.188+05:30"
+        jcr:lastModifiedBy="admin"
+        jcr:mixinTypes="[cq:ReplicationStatus]"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="Doctors &amp; Nurses"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2022-11-09T13:03:50.188+05:30">
+        <data
+            cq:model="/conf/headless-shark/settings/dam/cfm/models/special-fare-item"
+            jcr:primaryType="nt:unstructured">
+            <master
+                jcr:mixinTypes="[cq:Taggable,dam:cfVariationNode]"
+                jcr:primaryType="nt:unstructured"
+                activeonly="{Boolean}true"
+                activeonly_x0040_LastModified="{Date}2022-10-27T12:11:02.508+05:30"
+                endDate="26-Oct-2022"
+                endDate_x0040_LastModified="{Date}2022-10-27T12:11:02.508+05:30"
+                id="sf_docNurseFare"
+                id_x0040_LastModified="{Date}2022-10-27T12:11:02.507+05:30"
+                promoStartFrom="24-Sep-2022"
+                promoStartFrom_x0040_LastModified="{Date}2022-10-27T12:11:02.509+05:30"
+                specialfarecode="MEDICAL"
+                specialfarecode_x0040_LastModified="{Date}2022-11-09T13:03:50.174+05:30"
+                specialFareLabel="Doctors &amp; Nurses"
+                specialFareLabel_x0040_LastModified="{Date}2022-10-27T12:11:02.507+05:30"
+                startDate="26-Sep-2022"
+                startDate_x0040_LastModified="{Date}2022-10-27T12:11:02.508+05:30"/>
+        </data>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

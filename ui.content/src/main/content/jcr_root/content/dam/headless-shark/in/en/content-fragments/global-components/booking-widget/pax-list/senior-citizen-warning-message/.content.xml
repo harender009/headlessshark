@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="53b1c679-dd50-4d73-b1ef-ad7ef45c8070">
+    <jcr:content
+        cq:lastReplicated="{Date}2023-01-13T05:40:49.947Z"
+        cq:lastReplicatedBy="nidhigurania"
+        cq:lastReplicationAction="Activate"
+        cq:name="senior-citizen-warning-message"
+        cq:parentPath="/content/dam/headless-shark/in/en/content-fragments/global-components/booking-widget/pax-list"
+        jcr:lastModified="{Date}2023-01-13T05:36:55.159Z"
+        jcr:lastModifiedBy="nidhigurania"
+        jcr:mixinTypes="[cq:ReplicationStatus]"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="Senior Citizen warning message"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2023-01-13T05:36:55.159Z">
+        <data
+            cq:model="/conf/headless-shark/settings/dam/cfm/models/information-popup-"
+            jcr:primaryType="nt:unstructured">
+            <master
+                jcr:mixinTypes="[cq:Taggable,dam:cfVariationNode]"
+                jcr:primaryType="nt:unstructured"
+                ctaLabel="Ok"
+                ctaLabel_x0040_LastModified="{Date}2023-01-13T05:36:55.117Z"
+                description="&lt;p>Senior citizen will be valid only for domestic flights and no special fares cannot be clubbed with it&lt;/p>&#xa;"
+                description_x0040_ContentType="text/html"
+                description_x0040_LastModified="{Date}2023-01-13T05:36:55.116Z"
+                heading_x0040_LastModified="{Date}2023-01-12T13:59:57.907Z"
+                secondaryCtaLabel_x0040_LastModified="{Date}2023-01-12T13:59:57.907Z"/>
+        </data>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

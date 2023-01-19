@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="425a80da-d996-4052-800e-8d7ae2cd655b">
+    <jcr:content
+        cq:name="flexi-plus-fare-data"
+        cq:parentPath="/content/dam/headless-shark/in/en/srp"
+        jcr:lastModified="{Date}2023-01-10T14:29:10.741+05:30"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="Flexi plus fare data"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2023-01-10T14:29:10.741+05:30">
+        <data
+            cq:model="/conf/headless-shark/settings/dam/cfm/models/fare-category-columns"
+            jcr:primaryType="nt:unstructured">
+            <master
+                jcr:mixinTypes="[cq:Taggable,dam:cfVariationNode]"
+                jcr:primaryType="nt:unstructured"
+                fareCategoryDescriptions="[&lt;p>&lt;span class=&quot;icon-tick-green&quot;>{}&lt;/span>&lt;/p>&#xa;,&lt;p>&lt;span class=&quot;icon-tick-green&quot;>4 Days &amp;amp; Above:&amp;nbsp;&lt;/span>&lt;/p>&#xa;,&lt;p>&lt;span class=&quot;icon-tick-green&quot;>4 Days &amp;amp; Above:&lt;/span>&lt;/p>&#xa;,&lt;p>&lt;span class=&quot;icon-tick-green&quot;>Up To {}% Discount On Retail Price&lt;/span>&lt;/p>&#xa;,&lt;p>&lt;span class=&quot;icon-tick-green&quot;>{}KG\, Up To {}KG&lt;/span>&lt;/p>&#xa;]"
+                fareCategoryDescriptions_x0040_ContentType="text/html"
+                fareCategoryDescriptions_x0040_LastModified="{Date}2023-01-10T14:29:10.730+05:30"
+                fareIcons_x0040_LastModified="{Date}2023-01-10T14:26:47.799+05:30"
+                fareLabel_x0040_LastModified="{Date}2023-01-10T14:26:47.799+05:30"
+                fareType="J"
+                fareType_x0040_LastModified="{Date}2023-01-10T14:29:10.729+05:30"/>
+        </data>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

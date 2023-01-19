@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="6a8eea65-73de-4060-b6b6-1e25ad70ee85">
+    <jcr:content
+        cq:lastModified="{Date}2022-11-08T10:59:21.312+05:30"
+        cq:lastModifiedBy="admin"
+        cq:lastReplicated="{Date}2023-01-12T13:57:59.340Z"
+        cq:lastReplicatedBy="nidhigurania"
+        cq:lastReplicationAction="Activate"
+        cq:name="double-seat-item-2"
+        cq:parentPath="/content/dam/headless-shark/in/en/global-components"
+        jcr:lastModified="{Date}2022-10-22T16:50:07.538+05:30"
+        jcr:lastModifiedBy="admin"
+        jcr:mixinTypes="[cq:ReplicationStatus]"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="Double Seat Item 2"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2022-10-22T16:50:07.538+05:30">
+        <data
+            cq:model="/conf/headless-shark/settings/dam/cfm/models/side-pane-tab-faq-items"
+            jcr:primaryType="nt:unstructured">
+            <master
+                jcr:mixinTypes="[cq:Taggable,dam:cfVariationNode]"
+                jcr:primaryType="nt:unstructured"
+                sidePaneTabFaqKey="Can I book an empty or additional seat?"
+                sidePaneTabFaqKey_x0040_ContentType="text/plain"
+                sidePaneTabFaqKey_x0040_LastModified="{Date}2022-10-22T16:50:07.527+05:30"
+                sidePaneTabFaqValue="For a stress-free flying experience, check out our all-new 6E Double Seat service. With this service, customers can book two seats for one person."
+                sidePaneTabFaqValue_x0040_ContentType="text/plain"
+                sidePaneTabFaqValue_x0040_LastModified="{Date}2022-10-22T16:50:07.527+05:30"/>
+        </data>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

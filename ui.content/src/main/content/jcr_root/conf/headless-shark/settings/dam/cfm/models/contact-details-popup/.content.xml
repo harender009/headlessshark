@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:granite="http://www.adobe.com/jcr/granite/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Template"
+    allowedPaths="[/content/entities(/.*)?]"
+    ranking="{Long}100">
+    <jcr:content
+        cq:lastModified="{Date}2023-01-09T13:35:43.640+05:30"
+        cq:lastModifiedBy="admin"
+        cq:scaffolding="/conf/headless-shark/settings/dam/cfm/models/contact-details-popup/jcr:content/model"
+        cq:templateType="/libs/settings/dam/cfm/model-types/fragment"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Contact Details Popup"
+        sling:resourceSuperType="dam/cfm/models/console/components/data/entity"
+        sling:resourceType="dam/cfm/models/console/components/data/entity/default"
+        status="enabled">
+        <metadata jcr:primaryType="nt:unstructured">
+            <graphQL
+                jcr:primaryType="nt:unstructured"
+                apiName="ContactDetailsPopupModel"
+                queryFieldMultiple="contactDetailsPopupList"
+                queryFieldSingle="contactDetailsPopupByPath"/>
+        </metadata>
+        <model
+            cq:targetPath="/content/entities"
+            jcr:primaryType="cq:PageContent"
+            sling:resourceType="wcm/scaffolding/components/scaffolding"
+            dataTypesConfig="/mnt/overlay/settings/dam/cfm/models/formbuilderconfig/datatypes"
+            maxGeneratedOrder="20">
+            <cq:dialog
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="cq/gui/components/authoring/dialog">
+                <content
+                    jcr:lastModified="{Date}2023-01-09T13:35:43.640+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="granite/ui/components/coral/foundation/fixedcolumns">
+                    <items
+                        jcr:primaryType="nt:unstructured"
+                        maxGeneratedOrder="20">
+                        <_x0031_667824261693
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                            fieldLabel="Contact Details Title Label"
+                            listOrder="1"
+                            maxlength="255"
+                            metaType="text-single"
+                            name="contactDetailsTitle"
+                            renderReadOnly="false"
+                            showEmptyInReadOnly="true"
+                            valueType="string">
+                            <granite:data jcr:primaryType="nt:unstructured"/>
+                        </_x0031_667824261693>
+                        <_x0031_667824291907
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                            fieldLabel="Contact Details Subtitle Label"
+                            listOrder="1"
+                            maxlength="255"
+                            metaType="text-single"
+                            name="contactDetailsSubtitle"
+                            renderReadOnly="false"
+                            showEmptyInReadOnly="true"
+                            valueType="string">
+                            <granite:data jcr:primaryType="nt:unstructured"/>
+                        </_x0031_667824291907>
+                        <_x0031_667824401939
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                            fieldLabel="Primary Country Code Label"
+                            listOrder="1"
+                            maxlength="255"
+                            metaType="text-single"
+                            name="primaryCountryCodeLabel"
+                            renderReadOnly="false"
+                            showEmptyInReadOnly="true"
+                            valueType="string">
+                            <granite:data jcr:primaryType="nt:unstructured"/>
+                        </_x0031_667824401939>
+                        <_x0031_667824498316
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                            fieldLabel="Primary Mobile Label"
+                            listOrder="1"
+                            maxlength="255"
+                            metaType="text-single"
+                            name="primaryMobileLabel"
+                            renderReadOnly="false"
+                            showEmptyInReadOnly="true"
+                            valueType="string">
+                            <granite:data jcr:primaryType="nt:unstructured"/>
+                        </_x0031_667824498316>
+                        <_x0031_667824429622
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                            fieldLabel="Email ID Label"
+                            listOrder="1"
+                            maxlength="255"
+                            metaType="text-single"
+                            name="emailIdLabel"
+                            renderReadOnly="false"
+                            showEmptyInReadOnly="true"
+                            valueType="string">
+                            <granite:data jcr:primaryType="nt:unstructured"/>
+                        </_x0031_667824429622>
+                        <_x0031_668669383226
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="dam/cfm/models/editor/components/fragmentreference/multifield"
+                            allowNew="{Boolean}true"
+                            fieldLabel="Description Labels"
+                            filter="hierarchy"
+                            fragmentmodelreference="[/conf/headless-shark/settings/dam/cfm/models/privacy-policy-description,/conf/headless-shark/settings/dam/cfm/models/whatsapp-description,/conf/headless-shark/settings/dam/cfm/models/gst-description]"
+                            listOrder="9"
+                            metaType="fragment-reference"
+                            name="descriptionLabels"
+                            nameSuffix="contentReference"
+                            renderReadOnly="false"
+                            showEmptyInReadOnly="true"
+                            valueType="string/content-fragment[]">
+                            <field
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="dam/cfm/models/editor/components/fragmentreference"
+                                fragmentmodelreference="[/conf/headless-shark/settings/dam/cfm/models/privacy-policy-description,/conf/headless-shark/settings/dam/cfm/models/whatsapp-description,/conf/headless-shark/settings/dam/cfm/models/gst-description]"
+                                name="descriptionLabels"
+                                renderReadOnly="false">
+                                <granite:data jcr:primaryType="nt:unstructured"/>
+                            </field>
+                            <granite:data jcr:primaryType="nt:unstructured"/>
+                        </_x0031_668669383226>
+                        <_x0031_667825642902
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                            fieldLabel="Alternate Mobile Number Title Label"
+                            listOrder="1"
+                            maxlength="255"
+                            metaType="text-single"
+                            name="alternateMobileNumberLabel"
+                            renderReadOnly="false"
+                            showEmptyInReadOnly="true"
+                            valueType="string">
+                            <granite:data jcr:primaryType="nt:unstructured"/>
+                        </_x0031_667825642902>
+                        <_x0031_668667662471
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                            fieldLabel="Alternate Country Code Label"
+                            listOrder="1"
+                            maxlength="255"
+                            metaType="text-single"
+                            name="alternateCountryCodeLabel"
+                            renderReadOnly="false"
+                            showEmptyInReadOnly="true"
+                            valueType="string">
+                            <granite:data jcr:primaryType="nt:unstructured"/>
+                        </_x0031_668667662471>
+                        <_x0031_668667688852
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                            fieldLabel="Alternate Mobile Label"
+                            listOrder="1"
+                            maxlength="255"
+                            metaType="text-single"
+                            name="alternateMobileLabel"
+                            renderReadOnly="false"
+                            showEmptyInReadOnly="true"
+                            valueType="string">
+                            <granite:data jcr:primaryType="nt:unstructured"/>
+                        </_x0031_668667688852>
+                        <_x0031_673251082143
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="dam/cfm/models/editor/components/fragmentreference/multifield"
+                            allowNew="{Boolean}true"
+                            fieldLabel="Alternate Description Labels"
+                            filter="hierarchy"
+                            fragmentmodelreference="[/conf/headless-shark/settings/dam/cfm/models/gst-description,/conf/headless-shark/settings/dam/cfm/models/privacy-policy-description,/conf/headless-shark/settings/dam/cfm/models/whatsapp-description]"
+                            listOrder="9"
+                            metaType="fragment-reference"
+                            name="alternateDescriptionLabels"
+                            nameSuffix="contentReference"
+                            renderReadOnly="false"
+                            showEmptyInReadOnly="true"
+                            valueType="string/content-fragment[]">
+                            <field
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="dam/cfm/models/editor/components/fragmentreference"
+                                fragmentmodelreference="[/conf/headless-shark/settings/dam/cfm/models/gst-description,/conf/headless-shark/settings/dam/cfm/models/privacy-policy-description,/conf/headless-shark/settings/dam/cfm/models/whatsapp-description]"
+                                name="alternateDescriptionLabels"
+                                renderReadOnly="false">
+                                <granite:data jcr:primaryType="nt:unstructured"/>
+                            </field>
+                            <granite:data jcr:primaryType="nt:unstructured"/>
+                        </_x0031_673251082143>
+                        <_x0031_667898669079
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                            fieldLabel="CTA Label"
+                            listOrder="1"
+                            maxlength="255"
+                            metaType="text-single"
+                            name="ctaLabel"
+                            renderReadOnly="false"
+                            showEmptyInReadOnly="true"
+                            valueType="string">
+                            <granite:data jcr:primaryType="nt:unstructured"/>
+                        </_x0031_667898669079>
+                        <_x0031_673248761586
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                            fieldDescription="Provide external URL or append .html if using internal path"
+                            fieldLabel="CTA Path"
+                            listOrder="1"
+                            maxlength="255"
+                            metaType="text-single"
+                            name="ctaPath"
+                            renderReadOnly="false"
+                            showEmptyInReadOnly="true"
+                            valueType="string">
+                            <granite:data jcr:primaryType="nt:unstructured"/>
+                        </_x0031_673248761586>
+                    </items>
+                </content>
+            </cq:dialog>
+        </model>
+    </jcr:content>
+</jcr:root>

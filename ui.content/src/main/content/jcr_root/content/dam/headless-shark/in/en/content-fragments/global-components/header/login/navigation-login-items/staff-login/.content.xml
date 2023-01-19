@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="2392e068-b4a5-462b-ac72-f20813787f45">
+    <jcr:content
+        cq:name="staff-login"
+        cq:parentPath="/content/dam/headless-shark/in/en/content-fragments/global-components/header/login/navigation-login-items"
+        jcr:lastModified="{Date}2023-01-12T17:52:26.095+05:30"
+        jcr:lastModifiedBy="admin"
+        jcr:mixinTypes="[cq:ReplicationStatus]"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="SLT Login"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2023-01-12T17:52:26.095+05:30">
+        <data
+            cq:model="/conf/headless-shark/settings/dam/cfm/models/navigation-login-items"
+            jcr:primaryType="nt:unstructured">
+            <master
+                jcr:mixinTypes="[cq:Taggable,dam:cfVariationNode]"
+                jcr:primaryType="nt:unstructured"
+                loginPopup="{Boolean}false"
+                loginPopup_x0040_LastModified="{Date}2022-11-05T09:31:59.698Z"
+                navigationLoginItemLabel="Staff Login"
+                navigationLoginItemLabel_x0040_LastModified="{Date}2022-11-05T09:31:59.697Z"
+                navigationLoginItemPath="/content/headless-shark/in/en/home/slt.html?logintype=loginPopup"
+                navigationLoginItemPath_x0040_LastModified="{Date}2023-01-12T17:52:26.084+05:30"/>
+        </data>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

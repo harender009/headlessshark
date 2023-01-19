@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="73f015cf-9419-4547-ae0a-969ad158c6d6">
+    <jcr:content
+        cq:name="corp-connect-navigation-login"
+        cq:parentPath="/content/dam/headless-shark/in/en/content-fragments/global-components/header1/login/navigation-login-items/persona-logins"
+        jcr:lastModified="{Date}2022-11-05T14:24:04.218Z"
+        jcr:lastModifiedBy="nibeditanandi"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="Corp Connect Admin Navigation Login"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2022-11-05T14:24:04.218Z">
+        <data
+            cq:model="/conf/headless-shark/settings/dam/cfm/models/navigation-login-items"
+            jcr:primaryType="nt:unstructured">
+            <master
+                jcr:mixinTypes="[cq:Taggable,dam:cfVariationNode]"
+                jcr:primaryType="nt:unstructured"
+                loginPopup="{Boolean}true"
+                loginPopup_x0040_LastModified="{Date}2022-11-05T13:52:50.724Z"
+                navigationLoginItemLabel="Corp Connect Admin Login"
+                navigationLoginItemLabel_x0040_LastModified="{Date}2022-11-05T13:52:50.723Z"
+                navigationLoginItemPath_x0040_LastModified="{Date}2022-11-05T13:52:40.674Z"/>
+        </data>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

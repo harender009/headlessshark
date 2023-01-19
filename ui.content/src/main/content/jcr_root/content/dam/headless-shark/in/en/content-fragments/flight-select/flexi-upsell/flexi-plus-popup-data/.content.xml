@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="be4d084a-541c-44ec-a8f9-1d6aea20c765">
+    <jcr:content
+        cq:name="flexi-plus-popup-data"
+        cq:parentPath="/content/dam/headless-shark/in/en/content-fragments/flight-select/flexi-upsell"
+        jcr:lastModified="{Date}2023-01-13T12:59:35.004+05:30"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="Flexi plus popup data"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2023-01-13T12:59:35.004+05:30">
+        <data
+            cq:model="/conf/headless-shark/settings/dam/cfm/models/flexi-upsell-popup"
+            jcr:primaryType="nt:unstructured">
+            <master
+                jcr:mixinTypes="[cq:Taggable,dam:cfVariationNode]"
+                jcr:primaryType="nt:unstructured"
+                categories="[Meal &amp; Standard Seat,Date Changes#,Cancellation Charge#,XL Seat,Check-in and hand baggage allowance.]"
+                categories_x0040_LastModified="{Date}2023-01-10T14:22:56.242+05:30"
+                disclaimerDescription="&lt;p>*This may vary for domestic and international bookings.&lt;/p>&#xa;&lt;p>**This amount covers all passenger(s), all sectors.&lt;/p>&#xa;&lt;p>#Fee as per existing Regular Fare Policy applicable.&lt;/p>&#xa;"
+                disclaimerDescription_x0040_ContentType="text/html"
+                disclaimerDescription_x0040_LastModified="{Date}2023-01-10T14:22:56.244+05:30"
+                flexiFareValues="/content/dam/headless-shark/in/en/content-fragments/flight-select/flexi-upsell/flexi-plus-fare-data"
+                flexiFareValues_x0040_LastModified="{Date}2023-01-13T12:59:34.986+05:30"
+                flexiPlusFareLabel="FLEXI PLUS FARE"
+                flexiPlusFareLabel_x0040_LastModified="{Date}2023-01-10T14:22:56.241+05:30"
+                flexiPlusFareSubtitle="Add flexibility to your travel only at {} per passenger for oneway"
+                flexiPlusFareSubtitle_x0040_LastModified="{Date}2023-01-10T14:22:56.240+05:30"
+                newLabel="New"
+                newLabel_x0040_LastModified="{Date}2023-01-10T14:22:56.241+05:30"
+                passenger="Passenger"
+                passenger_x0040_LastModified="{Date}2023-01-10T14:22:56.242+05:30"
+                recommended="Recommended"
+                recommended_x0040_LastModified="{Date}2023-01-10T14:22:56.241+05:30"
+                saverFareLabel="SAVER FARE"
+                saverFareLabel_x0040_LastModified="{Date}2023-01-10T14:22:56.242+05:30"
+                saverFareValues="/content/dam/headless-shark/in/en/content-fragments/flight-select/flexi-upsell/saver-fare-data"
+                saverFareValues_x0040_LastModified="{Date}2023-01-13T12:59:34.986+05:30"
+                skipAndContinue="Skip &amp; continue with saver fare"
+                skipAndContinue_x0040_LastModified="{Date}2023-01-10T14:22:56.244+05:30"
+                skipLabelmobile="Skip"
+                skipLabelmobile_x0040_LastModified="{Date}2023-01-10T14:22:56.244+05:30"
+                upgradeFlexiPlusFareTitle="Upgrade to Flexi Plus Fare"
+                upgradeFlexiPlusFareTitle_x0040_LastModified="{Date}2023-01-10T14:22:56.240+05:30"
+                upgradeToFlexi="Upgrade to Flexi Plus Fare"
+                upgradeToFlexi_x0040_LastModified="{Date}2023-01-10T14:22:56.245+05:30"/>
+        </data>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

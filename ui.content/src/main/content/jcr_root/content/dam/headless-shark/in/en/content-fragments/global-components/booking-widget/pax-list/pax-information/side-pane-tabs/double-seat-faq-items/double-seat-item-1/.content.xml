@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="6fbf2e4d-4d22-4455-9d67-7612f426d62c">
+    <jcr:content
+        cq:lastModified="{Date}2022-11-08T10:59:21.324+05:30"
+        cq:lastModifiedBy="admin"
+        cq:lastReplicated="{Date}2023-01-12T13:57:59.340Z"
+        cq:lastReplicatedBy="nidhigurania"
+        cq:lastReplicationAction="Activate"
+        cq:name="double-seat-item-1"
+        cq:parentPath="/content/dam/headless-shark/in/en/content-fragments/global-components/booking-widget1/pax-list/pax-information/side-pane-tabs/double-seat-faq-items"
+        jcr:lastModified="{Date}2022-11-09T12:10:49.595+05:30"
+        jcr:lastModifiedBy="admin"
+        jcr:mixinTypes="[cq:ReplicationStatus]"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="Double Seat Item 1"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2022-11-09T12:10:49.595+05:30">
+        <data
+            cq:model="/conf/headless-shark/settings/dam/cfm/models/side-pane-tab-faq-items"
+            jcr:primaryType="nt:unstructured">
+            <master
+                jcr:mixinTypes="[cq:Taggable,dam:cfVariationNode]"
+                jcr:primaryType="nt:unstructured"
+                sidePaneTabFaqKey="How can I opt for 6E Double Seat?"
+                sidePaneTabFaqKey_x0040_ContentType="text/plain"
+                sidePaneTabFaqKey_x0040_LastModified="{Date}2022-10-22T16:49:33.102+05:30"
+                sidePaneTabFaqValue="&lt;p>If you wish to book with our 6E Double Seat service, select the number of Double seats from the&amp;nbsp;&lt;b>Passenger(s) and Double Seat(s)&lt;/b>&amp;nbsp;drop-down at the time of searching for a flight.&lt;/p>&#xa;&lt;p>&amp;nbsp;&lt;/p>&#xa;"
+                sidePaneTabFaqValue_x0040_ContentType="text/html"
+                sidePaneTabFaqValue_x0040_LastModified="{Date}2022-11-09T12:10:49.571+05:30"/>
+        </data>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

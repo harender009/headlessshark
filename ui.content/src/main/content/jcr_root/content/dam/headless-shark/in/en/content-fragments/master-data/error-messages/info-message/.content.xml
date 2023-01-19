@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="683c2e48-7a1a-44eb-994f-32adfa77576f">
+    <jcr:content
+        cq:name="info-message"
+        cq:parentPath="/content/dam/headless-shark/in/en/global-components/error-messages"
+        jcr:lastModified="{Date}2023-01-11T19:31:31.734+05:30"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="Info message "
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2023-01-11T19:31:31.734+05:30">
+        <data
+            cq:model="/conf/headless-shark/settings/dam/cfm/models/info-error-message-item"
+            jcr:primaryType="nt:unstructured">
+            <master
+                jcr:mixinTypes="[cq:Taggable,dam:cfVariationNode]"
+                jcr:primaryType="nt:unstructured"
+                code="Login successful"
+                code_x0040_LastModified="{Date}2023-01-11T19:31:31.723+05:30"
+                message="User logged in successfully"
+                message_x0040_LastModified="{Date}2023-01-11T19:31:31.723+05:30"
+                type="Info"
+                type_x0040_LastModified="{Date}2023-01-11T19:31:31.723+05:30"/>
+        </data>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

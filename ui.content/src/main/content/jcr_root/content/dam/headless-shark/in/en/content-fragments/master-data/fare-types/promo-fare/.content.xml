@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="1856b94e-7896-4938-9a2b-7d01288f2e6a">
+    <jcr:content
+        cq:name="promo-fare"
+        cq:parentPath="/content/dam/headless-shark/in/en/global-components/fare-types"
+        jcr:lastModified="{Date}2023-01-10T08:15:20.057Z"
+        jcr:lastModifiedBy="sakshishrivastava"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="Promo fare"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2023-01-10T08:15:20.057Z">
+        <data
+            cq:model="/conf/headless-shark/settings/dam/cfm/models/fare-type-items"
+            jcr:primaryType="nt:unstructured">
+            <master
+                jcr:mixinTypes="[cq:Taggable,dam:cfVariationNode]"
+                jcr:primaryType="nt:unstructured"
+                domesticCancellationCharges1="INR 500"
+                domesticCancellationCharges1_x0040_LastModified="{Date}2023-01-10T08:15:19.855Z"
+                domesticCancellationcharges2="No Fee"
+                domesticCancellationcharges2_x0040_LastModified="{Date}2023-01-10T08:15:19.856Z"
+                domesticChangeCharges1="INR 500"
+                domesticChangeCharges1_x0040_LastModified="{Date}2023-01-10T08:15:19.854Z"
+                domesticChangeCharges2="No Fee"
+                domesticChangeCharges2_x0040_LastModified="{Date}2023-01-10T08:15:19.854Z"
+                fareDescription="Hand baagage({}) + Check-in bag ({}) + Standard seat + Meal + Low Cancellation feee + No Change fee (Till 4days before departure)"
+                fareDescription_x0040_ContentType="text/plain"
+                fareDescription_x0040_LastModified="{Date}2023-01-10T08:15:19.853Z"
+                fareLabel="Promo"
+                fareLabel_x0040_LastModified="{Date}2023-01-10T08:15:19.853Z"
+                fareType="C"
+                fareType_x0040_LastModified="{Date}2023-01-10T08:15:19.853Z"
+                internationalCancellationCharges1="INR 999"
+                internationalCancellationCharges1_x0040_LastModified="{Date}2023-01-10T08:15:19.856Z"
+                internationalCancellationCharges2="No Fee"
+                internationalCancellationCharges2_x0040_LastModified="{Date}2023-01-10T08:15:19.856Z"
+                internationalChangeCharges1="INR 500"
+                internationalChangeCharges1_x0040_LastModified="{Date}2023-01-10T08:15:19.854Z"
+                internationalChangeCharges2="INR 500"
+                internationalChangeCharges2_x0040_LastModified="{Date}2023-01-10T08:15:19.855Z"/>
+        </data>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

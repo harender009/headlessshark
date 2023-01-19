@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="d0ca13a9-9ed3-48ea-a414-c5d58a1b354a">
+    <jcr:content
+        cq:name="saver-fare-data"
+        cq:parentPath="/content/dam/headless-shark/in/en/srp/fare-category"
+        jcr:lastModified="{Date}2023-01-10T14:42:47.950+05:30"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="saver fare data"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2023-01-10T14:42:47.950+05:30">
+        <data
+            cq:model="/conf/headless-shark/settings/dam/cfm/models/fare-category-columns"
+            jcr:primaryType="nt:unstructured">
+            <master
+                cq:tags="[]"
+                jcr:mixinTypes="[cq:Taggable,dam:cfVariationNode]"
+                jcr:primaryType="nt:unstructured"
+                fareCategoryDescriptions="[&lt;p>Best deal from our Regular/Return/Family/Online Group fares (depending on travel conditions).&lt;/p>&#xa;,&lt;p>{}&lt;/p>&#xa;,&lt;p>{}&lt;/p>&#xa;,&lt;p>&lt;a href=&quot;https://www.goindigo.in/content/indigo/in/en/travel-information/en/fare-rules.en-fd9bd1d98a5b47909c2518489e0e617c.html&quot;>Please click here for details.&lt;/a>&lt;/p>&#xa;,&lt;p>&lt;a href=&quot;https://www.goindigo.in/content/indigo/in/en/travel-information/en/fare-rules.en-fd9bd1d98a5b47909c2518489e0e617c.html&quot;>Please click here for details.&lt;/a>&lt;/p>&#xa;,&lt;p>No discount&lt;/p>&#xa;,&lt;p>{}&lt;/p>&#xa;,&lt;p>One hand bag up to 7 kgs and 115 cms (L+W+H)\, shall be allowed per customer.&lt;/p>&#xa;]"
+                fareCategoryDescriptions_x0040_ContentType="text/html"
+                fareCategoryDescriptions_x0040_LastModified="{Date}2023-01-10T14:42:47.935+05:30"
+                fareIcons="[headless-shark:icons/icon-baggage-filled]"
+                fareIcons_x0040_LastModified="{Date}2023-01-10T14:42:47.935+05:30"
+                fareLabel="SAVER"
+                fareLabel_x0040_LastModified="{Date}2023-01-10T14:42:47.934+05:30"
+                fareType="R"
+                fareType_x0040_LastModified="{Date}2023-01-10T14:42:47.934+05:30"/>
+        </data>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:mixinTypes="[mix:referenceable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="1da230f2-24c6-4e59-81fc-c53e7e57d13e">
+    <jcr:content
+        jcr:lastModified="{Date}2023-01-10T12:43:37.445+05:30"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="Terminal Change popup"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2023-01-10T12:43:37.445+05:30">
+        <data
+            cq:model="/conf/headless-shark/settings/dam/cfm/models/information-popup-"
+            jcr:primaryType="nt:unstructured">
+            <master
+                jcr:mixinTypes="[cq:Taggable,dam:cfVariationNode]"
+                jcr:primaryType="nt:unstructured"
+                ctaLabel="Proceed"
+                ctaLabel_x0040_LastModified="{Date}2023-01-10T12:43:37.428+05:30"
+                description="&lt;p>You are booking a connecting flight with a change of terminal at connecting station. Please plan you travel accordingly&lt;/p>&#xa;"
+                description_x0040_ContentType="text/html"
+                description_x0040_LastModified="{Date}2023-01-10T12:43:37.428+05:30"
+                heading="Terminal Change Information"
+                heading_x0040_LastModified="{Date}2023-01-10T12:43:37.428+05:30"
+                secondaryCtaLabel="Go back"
+                secondaryCtaLabel_x0040_LastModified="{Date}2023-01-10T12:43:37.429+05:30"/>
+        </data>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

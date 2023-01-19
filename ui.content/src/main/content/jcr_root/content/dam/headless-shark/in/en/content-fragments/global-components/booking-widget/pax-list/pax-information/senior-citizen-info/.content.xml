@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="70267086-bd2c-493a-8b31-d8a2ccadb914">
+    <jcr:content
+        cq:lastModified="{Date}2022-11-08T10:53:56.533+05:30"
+        cq:lastModifiedBy="admin"
+        cq:lastReplicated="{Date}2023-01-12T13:57:59.340Z"
+        cq:lastReplicatedBy="nidhigurania"
+        cq:lastReplicationAction="Activate"
+        cq:name="senior-citizen-info"
+        cq:parentPath="/content/dam/headless-shark/in/en/content-fragments/global-components/booking-widget/pax-list/pax-information"
+        jcr:lastModified="{Date}2023-01-12T13:57:44.380Z"
+        jcr:lastModifiedBy="nidhigurania"
+        jcr:mixinTypes="[cq:ReplicationStatus]"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="Senior Citizen Info"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2023-01-12T13:57:44.380Z">
+        <data
+            cq:model="/conf/headless-shark/settings/dam/cfm/models/slide-pane-content"
+            jcr:primaryType="nt:unstructured">
+            <master
+                cq:tags="[]"
+                jcr:mixinTypes="[cq:Taggable,dam:cfVariationNode]"
+                jcr:primaryType="nt:unstructured"
+                paneDescription="Yes, Applicable for senior citizens above the age of 60 years. Entitled for discount of 6% on base fare. Proof of Date of Birth is mandatory and needs to be presented at the time of check-in. Failure in producing proof will result in charging prevailing fares."
+                paneDescription_x0040_ContentType="text/plain"
+                paneDescription_x0040_LastModified="{Date}2022-10-19T12:34:29.356+05:30"
+                paneHeading="Senior Citizen"
+                paneHeading_x0040_LastModified="{Date}2022-10-19T12:34:29.356+05:30"
+                paneIcon="[headless-shark:icons/icon-ic-seniorcitizen-new]"
+                paneIcon_x0040_LastModified="{Date}2022-10-19T13:07:18.221+05:30"
+                paneTabs="[/content/dam/headless-shark/in/en/content-fragments/global-components/booking-widget/pax-list/pax-information/side-pane-tabs/6e-double-seat,/content/dam/headless-shark/in/en/content-fragments/global-components/booking-widget/pax-list/pax-information/side-pane-tabs/6e-triple-seat]"
+                paneTabs_x0040_LastModified="{Date}2023-01-12T13:57:44.314Z"/>
+        </data>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

@@ -14,9 +14,9 @@ import org.osgi.service.metatype.annotations.ObjectClassDefinition;
 
 /**
  * @author nidhigurani
- *
+ *, configurationPolicy = ConfigurationPolicy.REQUIRE
  */
-@Component(service = HeadlessSharkConfigurationImpl.class, immediate = true, configurationPolicy = ConfigurationPolicy.REQUIRE )
+@Component(service = HeadlessSharkConfigurationImpl.class, immediate = true)
 @Designate(ocd = HeadlessSharkConfigurationImpl.Configuration.class)
 public class HeadlessSharkConfigurationImpl {
 	

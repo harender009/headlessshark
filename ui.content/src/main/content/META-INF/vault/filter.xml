@@ -3,6 +3,7 @@
     <filter root="/conf/headless-shark" mode="merge"/>
     <filter root="/content/headless-shark" mode="merge"/>
     <filter root="/content/cq:tags/hs" mode="merge"/>
-    <filter root="/content/dam/headless-shark/asset.jpg" mode="merge"/>
+    <filter root="/content/cq:graphql"/>
+    <filter root="/content/dam/headless-shark"/>
     <filter root="/content/experience-fragments/headless-shark" mode="merge"/>
 </workspaceFilter>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:mixinTypes="[mix:referenceable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="4b36ea8f-3ba4-4b69-8fb5-c824e62e8ede">
+    <jcr:content
+        jcr:lastModified="{Date}2023-01-10T11:39:45.842+05:30"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="Vaccination dose1"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2023-01-10T11:39:45.842+05:30">
+        <data
+            cq:model="/conf/headless-shark/settings/dam/cfm/models/vaccination-dose-and-offers"
+            jcr:primaryType="nt:unstructured">
+            <master
+                jcr:mixinTypes="[cq:Taggable,dam:cfVariationNode]"
+                jcr:primaryType="nt:unstructured"
+                offerInVaccinationDoseExists="{Boolean}true"
+                offerInVaccinationDoseExists_x0040_LastModified="{Date}2023-01-10T11:39:45.824+05:30"
+                vaccinationDose="1st Dose"
+                vaccinationDose_x0040_LastModified="{Date}2023-01-10T11:39:45.823+05:30"
+                vaccinationDoseOffer="Upto 10% off"
+                vaccinationDoseOffer_x0040_LastModified="{Date}2023-01-10T11:39:45.824+05:30"/>
+        </data>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="c4104789-74c4-43bf-a5bc-bfc0e395694c">
+    <jcr:content
+        cq:name="non-stop-label"
+        cq:parentPath="/content/dam/headless-shark/in/en/srp"
+        jcr:lastModified="{Date}2023-01-10T12:46:54.008+05:30"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="Non stop label"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2023-01-10T12:46:54.008+05:30">
+        <data
+            cq:model="/conf/headless-shark/settings/dam/cfm/models/key-value-model"
+            jcr:primaryType="nt:unstructured">
+            <master
+                jcr:mixinTypes="[cq:Taggable,dam:cfVariationNode]"
+                jcr:primaryType="nt:unstructured"
+                key="NonStop"
+                key_x0040_LastModified="{Date}2023-01-10T12:46:53.997+05:30"
+                value="Non-stop"
+                value_x0040_LastModified="{Date}2023-01-10T12:46:53.997+05:30"/>
+        </data>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="a063eaf1-8ec4-4487-b363-b94f949b295e">
+    <jcr:content
+        cq:lastModified="{Date}2022-11-08T10:48:42.978+05:30"
+        cq:lastModifiedBy="admin"
+        cq:lastReplicated="{Date}2023-01-12T13:54:14.804Z"
+        cq:lastReplicatedBy="nidhigurania"
+        cq:lastReplicationAction="Activate"
+        cq:name="one-way"
+        cq:parentPath="/content/dam/headless-shark/in/en/content-fragments/global-components/booking-widget1/journey-type"
+        jcr:lastModified="{Date}2022-11-09T13:06:34.020+05:30"
+        jcr:lastModifiedBy="admin"
+        jcr:mixinTypes="[cq:ReplicationStatus]"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="One way"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2022-11-09T13:06:34.020+05:30">
+        <data
+            cq:model="/conf/headless-shark/settings/dam/cfm/models/journey-type-item"
+            jcr:primaryType="nt:unstructured">
+            <master
+                jcr:mixinTypes="[cq:Taggable,dam:cfVariationNode]"
+                jcr:primaryType="nt:unstructured"
+                journeyTypeCode="OneWay"
+                journeyTypeCode_x0040_LastModified="{Date}2022-11-09T13:06:34.006+05:30"
+                journeyTypeLabel="One way"
+                journeyTypeLabel_x0040_LastModified="{Date}2022-11-07T13:49:24.499+05:30"
+                journeyTypePath_x0040_LastModified="{Date}2022-11-07T13:49:05.781+05:30"/>
+        </data>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

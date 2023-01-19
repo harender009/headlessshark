@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:mixinTypes="[mix:referenceable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="0aa9f739-2728-4a4c-92ce-a335870658a2">
+    <jcr:content
+        jcr:lastModified="{Date}2023-01-10T12:59:02.585+05:30"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="TimeFilter1"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2023-01-10T12:59:02.585+05:30">
+        <data
+            cq:model="/conf/headless-shark/settings/dam/cfm/models/filter-values"
+            jcr:primaryType="nt:unstructured">
+            <master
+                cq:tags="[]"
+                jcr:mixinTypes="[cq:Taggable,dam:cfVariationNode]"
+                jcr:primaryType="nt:unstructured"
+                filterCode_x0040_LastModified="{Date}2023-01-10T12:58:32.661+05:30"
+                filterIcon="[headless-shark:icons/icon-icCrescentMoonsvg]"
+                filterIcon_x0040_LastModified="{Date}2023-01-10T12:59:02.573+05:30"
+                filterLabel="00-06 hrs"
+                filterLabel_x0040_LastModified="{Date}2023-01-10T12:59:02.572+05:30"/>
+        </data>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

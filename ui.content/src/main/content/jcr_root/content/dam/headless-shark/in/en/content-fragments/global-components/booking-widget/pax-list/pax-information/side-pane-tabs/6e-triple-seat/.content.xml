@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="6d132e27-2ac2-43be-9324-b82ec8bb56d1">
+    <jcr:content
+        cq:lastModified="{Date}2022-11-08T10:56:39.493+05:30"
+        cq:lastModifiedBy="admin"
+        cq:lastReplicated="{Date}2023-01-12T13:57:59.340Z"
+        cq:lastReplicatedBy="nidhigurania"
+        cq:lastReplicationAction="Activate"
+        cq:name="6e-triple-seat"
+        cq:parentPath="/content/dam/headless-shark/in/en/content-fragments/global-components/booking-widget/pax-list/pax-information/side-pane-tabs"
+        jcr:lastModified="{Date}2023-01-12T13:54:55.359Z"
+        jcr:lastModifiedBy="nidhigurania"
+        jcr:mixinTypes="[cq:ReplicationStatus]"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="6E Triple Seat"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2023-01-12T13:54:55.359Z">
+        <data
+            cq:model="/conf/headless-shark/settings/dam/cfm/models/side-pane-tabs"
+            jcr:primaryType="nt:unstructured">
+            <master
+                jcr:mixinTypes="[cq:Taggable,dam:cfVariationNode]"
+                jcr:primaryType="nt:unstructured"
+                tabDescription="&lt;ul>&#xa;&lt;li>6E Triple Seat allows you to book Three seats for one person.&lt;/li>&#xa;&lt;li>With 6E Triple Seat service, only one boarding pass will be generated.&lt;/li>&#xa;&lt;li>Purchase of a 6E Triple Seat, as part of round-trip/multicity will be applicable for the whole trip and cannot be purchased for only one leg.&lt;/li>&#xa;&lt;li>Get additional allowance of 10 kg and carry two pieces of checked baggage.&lt;/li>&#xa;&lt;/ul>&#xa;"
+                tabDescription_x0040_ContentType="text/html"
+                tabDescription_x0040_LastModified="{Date}2022-10-19T12:30:13.458+05:30"
+                tabFaq="/content/dam/headless-shark/in/en/content-fragments/global-components/booking-widget/pax-list/pax-information/side-pane-tabs/double-seat-faq-items/faq"
+                tabFaq_x0040_ContentType="text/html"
+                tabFaq_x0040_LastModified="{Date}2023-01-12T13:54:55.294Z"
+                tabFaqItems="[/content/dam/headless-shark/in/en/content-fragments/global-components/booking-widget1/pax-list/pax-information/side-pane-tabs/double-seat-faq-items/double-seat-item-1,/content/dam/headless-shark/in/en/content-fragments/global-components/booking-widget1/pax-list/pax-information/side-pane-tabs/double-seat-faq-items/double-seat-item-2,/content/dam/headless-shark/in/en/content-fragments/global-components/booking-widget1/pax-list/pax-information/side-pane-tabs/double-seat-faq-items/double-seat-item-3,/content/dam/headless-shark/in/en/content-fragments/global-components/booking-widget1/pax-list/pax-information/side-pane-tabs/double-seat-faq-items/double-seat-item-4,/content/dam/headless-shark/in/en/content-fragments/global-components/booking-widget1/pax-list/pax-information/side-pane-tabs/double-seat-faq-items/double-seat-item-5,/content/dam/headless-shark/in/en/content-fragments/global-components/booking-widget1/pax-list/pax-information/side-pane-tabs/double-seat-faq-items/double-seat-item-6,/content/dam/headless-shark/in/en/content-fragments/global-components/booking-widget1/pax-list/pax-information/side-pane-tabs/double-seat-faq-items/double-seat-item-7]"
+                tabFaqItems_x0040_LastModified="{Date}2022-11-08T11:08:41.014+05:30"
+                tabHeading="6E Triple Seat"
+                tabHeading_x0040_LastModified="{Date}2022-10-19T12:30:13.457+05:30"
+                tabShortDescription="&lt;p>Enjoy a stress-free flying experience!&lt;/p>&#xa;"
+                tabShortDescription_x0040_ContentType="text/html"
+                tabShortDescription_x0040_LastModified="{Date}2022-10-19T12:30:13.458+05:30"
+                tabTitle="6E Triple Seat"
+                tabTitle_x0040_LastModified="{Date}2022-10-19T12:30:13.457+05:30"/>
+        </data>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="bf8945b1-f297-4d36-a28d-865384c96d00">
+    <jcr:content
+        cq:name="corporate-fare"
+        cq:parentPath="/content/dam/headless-shark/in/en/global-components/fare-types"
+        jcr:lastModified="{Date}2023-01-10T08:05:04.387Z"
+        jcr:lastModifiedBy="sakshishrivastava"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="Corporate Fare"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2023-01-10T08:05:04.387Z">
+        <data
+            cq:model="/conf/headless-shark/settings/dam/cfm/models/fare-type-items"
+            jcr:primaryType="nt:unstructured">
+            <master
+                jcr:mixinTypes="[cq:Taggable,dam:cfVariationNode]"
+                jcr:primaryType="nt:unstructured"
+                domesticCancellationCharges1="No Fee"
+                domesticCancellationCharges1_x0040_LastModified="{Date}2023-01-10T08:05:04.199Z"
+                domesticCancellationcharges2="No Fee"
+                domesticCancellationcharges2_x0040_LastModified="{Date}2023-01-10T08:05:04.199Z"
+                domesticChangeCharges1="No Fee"
+                domesticChangeCharges1_x0040_LastModified="{Date}2023-01-10T08:05:04.197Z"
+                domesticChangeCharges2="No Fee"
+                domesticChangeCharges2_x0040_LastModified="{Date}2023-01-10T08:05:04.198Z"
+                fareDescription="Hand baggage({}) + Check-in bag ({}) + Standard seat + Meal + Low Cancellation feee + No Change fee (Till 4days before departure)"
+                fareDescription_x0040_ContentType="text/plain"
+                fareDescription_x0040_LastModified="{Date}2023-01-10T08:05:04.197Z"
+                fareLabel="Corp"
+                fareLabel_x0040_LastModified="{Date}2023-01-10T08:05:04.197Z"
+                fareType="F"
+                fareType_x0040_LastModified="{Date}2023-01-10T08:05:04.196Z"
+                internationalCancellationCharges1="No Fee"
+                internationalCancellationCharges1_x0040_LastModified="{Date}2023-01-10T08:05:04.199Z"
+                internationalCancellationCharges2="No Fee"
+                internationalCancellationCharges2_x0040_LastModified="{Date}2023-01-10T08:05:04.200Z"
+                internationalChangeCharges1="No Fee"
+                internationalChangeCharges1_x0040_LastModified="{Date}2023-01-10T08:05:04.198Z"
+                internationalChangeCharges2="No Fee"
+                internationalChangeCharges2_x0040_LastModified="{Date}2023-01-10T08:05:04.198Z"/>
+        </data>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

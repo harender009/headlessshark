@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:mixinTypes="[mix:referenceable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="7bcbdc87-2782-44dd-92e8-dd3bc1e92351">
+    <jcr:content
+        jcr:lastModified="{Date}2022-10-20T01:32:04.002+05:30"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="Add Profile 2"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2022-10-20T01:32:04.002+05:30">
+        <data
+            cq:model="/conf/headless-shark/settings/dam/cfm/models/add-profile"
+            jcr:primaryType="nt:unstructured">
+            <master
+                jcr:mixinTypes="[cq:Taggable,dam:cfVariationNode]"
+                jcr:primaryType="nt:unstructured"
+                displayOptions="member"
+                displayOptions_x0040_LastModified="{Date}2022-10-20T01:32:03.969+05:30"
+                itemText="My Bookings "
+                itemText_x0040_LastModified="{Date}2022-10-20T01:32:03.967+05:30"
+                newTag_x0040_LastModified="{Date}2022-10-20T01:30:32.591+05:30"
+                redirectionLink="/content/headless-shark/language-masters/en/homepage"
+                redirectionLink_x0040_LastModified="{Date}2022-10-20T01:32:03.968+05:30"
+                showIndigoCash_x0040_LastModified="{Date}2022-10-20T01:30:32.591+05:30"/>
+        </data>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

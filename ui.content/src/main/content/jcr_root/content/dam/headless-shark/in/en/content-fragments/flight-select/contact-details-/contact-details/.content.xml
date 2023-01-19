@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="31f2a71b-584a-4a44-a2ab-e460ef8e3b62">
+    <jcr:content
+        cq:name="contact-details"
+        cq:parentPath="/content/dam/headless-shark/in/en/content-fragments/flight-select/contact-details-"
+        jcr:lastModified="{Date}2023-01-13T12:58:45.008+05:30"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="Contact details"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2023-01-13T12:58:45.008+05:30">
+        <data
+            cq:model="/conf/headless-shark/settings/dam/cfm/models/contact-details-popup"
+            jcr:primaryType="nt:unstructured">
+            <master
+                jcr:mixinTypes="[cq:Taggable,dam:cfVariationNode]"
+                jcr:primaryType="nt:unstructured"
+                alternateCountryCodeLabel="Enter Country Code"
+                alternateCountryCodeLabel_x0040_LastModified="{Date}2023-01-10T11:15:32.518+05:30"
+                alternateDescriptionLabels="[/content/dam/headless-shark/in/en/content-fragments/flight-select/contact-details-/privacy-policy]"
+                alternateDescriptionLabels_x0040_LastModified="{Date}2023-01-13T12:58:44.991+05:30"
+                alternateMobileLabel="Alternate Mob. No."
+                alternateMobileLabel_x0040_LastModified="{Date}2023-01-10T11:15:32.518+05:30"
+                alternateMobileNumberLabel="Alternate Mobile No."
+                alternateMobileNumberLabel_x0040_LastModified="{Date}2023-01-10T11:15:32.517+05:30"
+                contactDetailsSubtitle="*All notifications will be sent to this mobile number and email address."
+                contactDetailsSubtitle_x0040_LastModified="{Date}2023-01-10T11:15:32.494+05:30"
+                contactDetailsTitle="Contact Details"
+                contactDetailsTitle_x0040_LastModified="{Date}2023-01-10T11:15:32.493+05:30"
+                ctaLabel="Next"
+                ctaLabel_x0040_LastModified="{Date}2023-01-10T11:15:32.519+05:30"
+                ctaPath="/content/headless-shark/in/en/booking/passenger-edit.html"
+                ctaPath_x0040_LastModified="{Date}2023-01-10T11:15:32.519+05:30"
+                descriptionLabels="[/content/dam/headless-shark/in/en/content-fragments/flight-select/contact-details-/privacy-policy,/content/dam/headless-shark/in/en/content-fragments/flight-select/contact-details-/whatsapp,/content/dam/headless-shark/in/en/content-fragments/flight-select/contact-details-/gst-description]"
+                descriptionLabels_x0040_LastModified="{Date}2023-01-13T12:58:44.990+05:30"
+                emailIdLabel="Email ID"
+                emailIdLabel_x0040_LastModified="{Date}2023-01-10T11:15:32.496+05:30"
+                primaryCountryCodeLabel="Enter Country Code"
+                primaryCountryCodeLabel_x0040_LastModified="{Date}2023-01-10T11:15:32.495+05:30"
+                primaryMobileLabel="Enter Mobile No."
+                primaryMobileLabel_x0040_LastModified="{Date}2023-01-10T11:15:32.495+05:30"/>
+        </data>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

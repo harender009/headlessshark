@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="267b6bad-e27f-4c2b-8143-9becd8664ccd">
+    <jcr:content
+        cq:lastModified="{Date}2022-11-08T10:51:21.853+05:30"
+        cq:lastModifiedBy="admin"
+        cq:lastReplicated="{Date}2023-01-12T13:54:14.804Z"
+        cq:lastReplicatedBy="nidhigurania"
+        cq:lastReplicationAction="Activate"
+        cq:name="adults"
+        cq:parentPath="/content/dam/headless-shark/in/en/content-fragments/global-components/booking-widget/pax-list"
+        jcr:lastModified="{Date}2023-01-12T13:53:52.340Z"
+        jcr:lastModifiedBy="nidhigurania"
+        jcr:mixinTypes="[cq:ReplicationStatus]"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="Adults"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2023-01-12T13:53:52.340Z">
+        <data
+            cq:model="/conf/headless-shark/settings/dam/cfm/models/pax-information"
+            jcr:primaryType="nt:unstructured">
+            <master
+                jcr:mixinTypes="[cq:Taggable,dam:cfVariationNode]"
+                jcr:primaryType="nt:unstructured"
+                paxDescription="(>12 years)"
+                paxDescription_x0040_LastModified="{Date}2022-11-14T16:27:47.800+05:30"
+                paxInformation="/content/dam/headless-shark/in/en/content-fragments/global-components/booking-widget/pax-list/pax-information/adults-info"
+                paxInformation_x0040_LastModified="{Date}2023-01-12T13:53:52.262Z"
+                paxLabel="Adult(s)"
+                paxLabel_x0040_ContentType="text/html"
+                paxLabel_x0040_LastModified="{Date}2022-11-14T16:27:47.799+05:30"
+                typeCode="ADT"
+                typeCode_x0040_LastModified="{Date}2022-11-08T10:52:01.329+05:30"/>
+        </data>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

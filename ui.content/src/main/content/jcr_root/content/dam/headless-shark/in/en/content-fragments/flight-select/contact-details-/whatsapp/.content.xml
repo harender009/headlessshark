@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="68d3ba1a-437c-4a2c-ab7b-1fb91109906b">
+    <jcr:content
+        cq:name="whatsapp"
+        cq:parentPath="/content/dam/headless-shark/in/en/srp"
+        jcr:lastModified="{Date}2023-01-10T11:26:46.850+05:30"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="Whatsapp"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2023-01-10T11:26:46.850+05:30">
+        <data
+            cq:model="/conf/headless-shark/settings/dam/cfm/models/whatsapp-description"
+            jcr:primaryType="nt:unstructured">
+            <master
+                cq:tags="[]"
+                jcr:mixinTypes="[cq:Taggable,dam:cfVariationNode]"
+                jcr:primaryType="nt:unstructured"
+                key_x0040_LastModified="{Date}2023-01-10T11:19:12.140+05:30"
+                whatsappDescription="&lt;p>Get itinerary, boarding pass, flight status, and much more on WhatsApp By subscribing, you agree to WhatsApp &lt;a href=&quot;/content/indigo/in/en/information/privacy.html&quot; target=&quot;_blank&quot;>T&amp;amp;Cs&lt;/a>&lt;/p>&#xa;&lt;p>&amp;nbsp;&lt;/p>&#xa;"
+                whatsappDescription_x0040_ContentType="text/html"
+                whatsappDescription_x0040_LastModified="{Date}2023-01-10T11:21:27.114+05:30"
+                whatsappIcon="[headless-shark:icons/icon-whatsapp]"
+                whatsappIcon_x0040_LastModified="{Date}2023-01-10T11:26:46.834+05:30"
+                whatsappLabel="Whatsapp"
+                whatsappLabel_x0040_LastModified="{Date}2023-01-10T11:20:00.953+05:30"
+                whatsappSubscribedDescription="&lt;p>Already subscribed to&amp;nbsp; WhatsApp&amp;nbsp;&lt;a href=&quot;/content/indigo/in/en/information/privacy.html&quot;>T&amp;amp;Cs&lt;/a>&lt;/p>&#xa;"
+                whatsappSubscribedDescription_x0040_ContentType="text/html"
+                whatsappSubscribedDescription_x0040_LastModified="{Date}2023-01-10T11:21:27.115+05:30"/>
+        </data>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="875a74ce-b06d-44ce-9457-d86b6f271ff6">
+    <jcr:content
+        cq:name="lite-fare"
+        cq:parentPath="/content/dam/headless-shark/in/en/global-components/fare-types"
+        jcr:lastModified="{Date}2023-01-10T07:56:01.328Z"
+        jcr:lastModifiedBy="sakshishrivastava"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="Lite Fare"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2023-01-10T07:56:01.328Z">
+        <data
+            cq:model="/conf/headless-shark/settings/dam/cfm/models/fare-type-items"
+            jcr:primaryType="nt:unstructured">
+            <master
+                jcr:mixinTypes="[cq:Taggable,dam:cfVariationNode]"
+                jcr:primaryType="nt:unstructured"
+                domesticCancellationCharges1_x0040_LastModified="{Date}2023-01-10T07:46:34.479Z"
+                domesticCancellationcharges2_x0040_LastModified="{Date}2023-01-10T07:46:34.479Z"
+                domesticChangeCharges1_x0040_LastModified="{Date}2023-01-10T07:46:34.479Z"
+                domesticChangeCharges2_x0040_LastModified="{Date}2023-01-10T07:46:34.479Z"
+                fareDescription="Hand baggage only ({}) &#xa;"
+                fareDescription_x0040_ContentType="text/plain"
+                fareDescription_x0040_LastModified="{Date}2023-01-10T07:56:01.142Z"
+                fareLabel="Lite"
+                fareLabel_x0040_LastModified="{Date}2023-01-10T07:56:01.141Z"
+                fareType="B"
+                fareType_x0040_LastModified="{Date}2023-01-10T07:56:01.141Z"
+                internationalCancellationCharges1_x0040_LastModified="{Date}2023-01-10T07:46:34.479Z"
+                internationalCancellationCharges2_x0040_LastModified="{Date}2023-01-10T07:46:34.479Z"
+                internationalChangeCharges1_x0040_LastModified="{Date}2023-01-10T07:46:34.479Z"
+                internationalChangeCharges2_x0040_LastModified="{Date}2023-01-10T07:46:34.479Z"/>
+        </data>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

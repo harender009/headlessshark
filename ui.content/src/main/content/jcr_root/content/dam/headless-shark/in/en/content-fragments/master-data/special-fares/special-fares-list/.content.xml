@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="71478cac-fcde-4c87-9dc0-ff1c46baf6e1">
+    <jcr:content
+        cq:lastReplicated="{Date}2023-01-12T08:31:40.488Z"
+        cq:lastReplicatedBy="nidhigurania"
+        cq:lastReplicationAction="Activate"
+        cq:name="special-fares-list"
+        cq:parentPath="/content/dam/headless-shark/in/en/content-fragments/master-data/special-fares"
+        jcr:lastModified="{Date}2022-10-27T12:12:56.941+05:30"
+        jcr:lastModifiedBy="admin"
+        jcr:mixinTypes="[cq:ReplicationStatus]"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="Special Fares List"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2022-10-27T12:12:56.941+05:30">
+        <data
+            cq:model="/conf/headless-shark/settings/dam/cfm/models/special-fares-list"
+            jcr:primaryType="nt:unstructured">
+            <master
+                jcr:mixinTypes="[cq:Taggable,dam:cfVariationNode]"
+                jcr:primaryType="nt:unstructured"
+                fieldLabel="[/content/dam/headless-shark/in/en/content-fragments/master-data/special-fares/armed-forces,/content/dam/headless-shark/in/en/content-fragments/master-data/special-fares/vaccinated]"
+                fieldLabel_x0040_LastModified="{Date}2022-10-27T11:39:30.157+05:30"
+                specialFaresList="[/content/dam/headless-shark/in/en/content-fragments/master-data/special-fares/armed-forces,/content/dam/headless-shark/in/en/content-fragments/master-data/special-fares/doctors-&amp;-nurses,/content/dam/headless-shark/in/en/content-fragments/master-data/special-fares/family-and-friends,/content/dam/headless-shark/in/en/content-fragments/master-data/special-fares/students,/content/dam/headless-shark/in/en/content-fragments/master-data/special-fares/unaccompanied-minor,/content/dam/headless-shark/in/en/content-fragments/master-data/special-fares/vaccinated]"
+                specialFaresList_x0040_LastModified="{Date}2022-10-27T12:12:56.927+05:30"/>
+        </data>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

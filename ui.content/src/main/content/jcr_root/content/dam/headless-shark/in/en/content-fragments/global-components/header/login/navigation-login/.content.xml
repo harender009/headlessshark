@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="03a29e5b-ba5c-4c1d-8a5d-f1c470e9afdf">
+    <jcr:content
+        cq:name="navigation-login"
+        cq:parentPath="/content/dam/headless-shark/in/en/content-fragments/global-components/header/login"
+        jcr:lastModified="{Date}2023-01-12T15:35:12.311+05:30"
+        jcr:lastModifiedBy="admin"
+        jcr:mixinTypes="[cq:ReplicationStatus]"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="Navigation Login"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2023-01-12T15:35:12.311+05:30">
+        <data
+            cq:model="/conf/headless-shark/settings/dam/cfm/models/navigation-login"
+            jcr:primaryType="nt:unstructured">
+            <master
+                jcr:mixinTypes="[cq:Taggable,dam:cfVariationNode]"
+                jcr:primaryType="nt:unstructured"
+                indigoCashLabel="IndiGo Cash"
+                indigoCashLabel_x0040_LastModified="{Date}2022-11-14T09:17:57.116Z"
+                loginPopup="{Boolean}false"
+                loginPopup_x0040_LastModified="{Date}2022-11-05T09:26:10.931Z"
+                logOutLabel="Log out"
+                logOutLabel_x0040_LastModified="{Date}2022-11-14T09:17:57.116Z"
+                navigationAfterLoginItems="[/content/dam/headless-shark/in/en/content-fragments/global-components/header/login/navigation-after-login-items/member/my-booking,/content/dam/headless-shark/in/en/content-fragments/global-components/header/login/navigation-after-login-items/member/account-and-settings,/content/dam/headless-shark/in/en/content-fragments/global-components/header/login/navigation-after-login-items/member/6e-rewards]"
+                navigationAfterLoginItems_x0040_LastModified="{Date}2023-01-12T15:34:35.358+05:30"
+                navigationLoginItems="[/content/dam/headless-shark/in/en/content-fragments/global-components/header/login/navigation-login-items/customer-login,/content/dam/headless-shark/in/en/content-fragments/global-components/header/login/navigation-login-items/partner-login,/content/dam/headless-shark/in/en/content-fragments/global-components/header/login/navigation-login-items/corp-connect-login,/content/dam/headless-shark/in/en/content-fragments/global-components/header/login/navigation-login-items/sme-user-login,/content/dam/headless-shark/in/en/content-fragments/global-components/header/login/navigation-login-items/staff-login,/content/dam/headless-shark/in/en/content-fragments/global-components/header/login/navigation-login-items/capf-agent-login]"
+                navigationLoginItems_x0040_LastModified="{Date}2023-01-12T15:34:35.358+05:30"
+                navigationLoginLabel="Login"
+                navigationLoginLabel_x0040_LastModified="{Date}2022-11-03T15:54:45.932+05:30"
+                navigationLoginPath_x0040_LastModified="{Date}2022-11-03T15:54:37.982+05:30"
+                viewProfileLabel="View profile"
+                viewProfileLabel_x0040_LastModified="{Date}2022-11-14T09:17:57.116Z"/>
+            <partner_navigationlogin
+                jcr:mixinTypes="[cq:Taggable,dam:cfVariationNode]"
+                jcr:primaryType="nt:unstructured"
+                _x0040_variationCreationDate="{Date}2022-11-05T09:04:37.028Z"
+                idLabel="ID"
+                idLabel_x0040_LastModified="{Date}2022-11-10T17:08:30.973Z"
+                indigoCashLabel="IndiGo Cash"
+                indigoCashLabel_x0040_LastModified="{Date}2022-11-10T17:08:30.973Z"
+                loginPopup="{Boolean}true"
+                loginPopup_x0040_LastModified="{Date}2022-11-06T08:23:32.556Z"
+                logOutLabel="Log out"
+                logOutLabel_x0040_LastModified="{Date}2022-11-10T17:08:30.974Z"
+                navigationAfterLoginItems="[/content/dam/headless-shark/in/en/content-fragments/global-components/header/login/navigation-after-login-items/agent/my-booking]"
+                navigationAfterLoginItems_x0040_LastModified="{Date}2023-01-12T15:34:43.035+05:30"
+                navigationLoginItems_x0040_LastModified="{Date}2022-11-06T08:23:32.556Z"
+                navigationLoginLabel="Login"
+                navigationLoginLabel_x0040_LastModified="{Date}2022-11-05T10:54:39.440Z"
+                navigationLoginPath_x0040_LastModified="{Date}2022-11-05T10:57:31.602Z"
+                viewProfileLabel="View Profile"
+                viewProfileLabel_x0040_LastModified="{Date}2022-11-10T17:08:30.973Z"/>
+            <corp_connect_adminnavigationlogin
+                jcr:mixinTypes="[cq:Taggable,dam:cfVariationNode]"
+                jcr:primaryType="nt:unstructured"
+                _x0040_variationCreationDate="{Date}2022-11-05T13:51:17.407Z"
+                idLabel="ID"
+                idLabel_x0040_LastModified="{Date}2022-11-10T17:09:20.596Z"
+                loginPopup="{Boolean}true"
+                loginPopup_x0040_LastModified="{Date}2022-11-06T08:23:38.228Z"
+                logOutLabel="Log out"
+                logOutLabel_x0040_LastModified="{Date}2022-11-10T17:09:20.597Z"
+                navigationAfterLoginItems="[/content/dam/headless-shark/in/en/content-fragments/global-components/header/login/navigation-after-login-items/corp-connect-admin/my-booking,/content/dam/headless-shark/in/en/content-fragments/global-components/header/login/navigation-after-login-items/corp-connect-admin/account-and-settings]"
+                navigationAfterLoginItems_x0040_LastModified="{Date}2023-01-12T15:34:51.625+05:30"
+                navigationLoginItems_x0040_LastModified="{Date}2022-11-06T08:23:38.228Z"
+                navigationLoginLabel="Login"
+                navigationLoginLabel_x0040_LastModified="{Date}2022-11-05T13:51:17.411Z"
+                navigationLoginPath_x0040_LastModified="{Date}2022-11-05T13:51:17.412Z"
+                viewProfileLabel="View profile"
+                viewProfileLabel_x0040_LastModified="{Date}2022-11-10T17:09:20.596Z"/>
+            <corp_connect_usernavigationlogin
+                jcr:mixinTypes="[cq:Taggable,dam:cfVariationNode]"
+                jcr:primaryType="nt:unstructured"
+                _x0040_variationCreationDate="{Date}2022-11-05T14:26:30.155Z"
+                idLabel="ID"
+                idLabel_x0040_LastModified="{Date}2022-11-10T17:09:35.971Z"
+                loginPopup="{Boolean}true"
+                loginPopup_x0040_LastModified="{Date}2022-11-06T08:23:42.817Z"
+                logOutLabel="Log out"
+                logOutLabel_x0040_LastModified="{Date}2022-11-10T17:09:35.971Z"
+                navigationAfterLoginItems="[/content/dam/headless-shark/in/en/content-fragments/global-components/header/login/navigation-after-login-items/corp-connect-user/my-booking,/content/dam/headless-shark/in/en/content-fragments/global-components/header/login/navigation-after-login-items/corp-connect-user/account-and-settings]"
+                navigationAfterLoginItems_x0040_LastModified="{Date}2023-01-12T15:34:59.261+05:30"
+                navigationLoginItems_x0040_LastModified="{Date}2022-11-06T08:23:42.818Z"
+                navigationLoginLabel="Login"
+                navigationLoginLabel_x0040_LastModified="{Date}2022-11-05T14:26:30.156Z"
+                navigationLoginPath_x0040_LastModified="{Date}2022-11-05T14:26:30.158Z"
+                viewProfileLabel="View profile"
+                viewProfileLabel_x0040_LastModified="{Date}2022-11-10T17:09:35.970Z"/>
+            <slt_navigation_login
+                jcr:mixinTypes="[cq:Taggable,dam:cfVariationNode]"
+                jcr:primaryType="nt:unstructured"
+                _x0040_variationCreationDate="{Date}2022-11-05T14:38:13.556Z"
+                creditShellLabel="Credit Shell"
+                creditShellLabel_x0040_LastModified="{Date}2022-11-10T17:10:49.098Z"
+                indigoCashLabel="IndiGo Cash"
+                indigoCashLabel_x0040_LastModified="{Date}2022-11-10T17:10:49.098Z"
+                loginPopup="{Boolean}true"
+                loginPopup_x0040_LastModified="{Date}2022-11-06T08:23:50.233Z"
+                logOutLabel="Log out"
+                logOutLabel_x0040_LastModified="{Date}2022-11-10T17:10:49.099Z"
+                navigationAfterLoginItems="[/content/dam/headless-shark/in/en/content-fragments/global-components/header/login/navigation-after-login-items/slt/my-booking,/content/dam/headless-shark/in/en/content-fragments/global-components/header/login/navigation-after-login-items/slt/account-and-settings]"
+                navigationAfterLoginItems_x0040_LastModified="{Date}2023-01-12T15:35:06.149+05:30"
+                navigationLoginItems_x0040_LastModified="{Date}2022-11-06T08:23:50.233Z"
+                navigationLoginLabel="Login"
+                navigationLoginLabel_x0040_LastModified="{Date}2022-11-05T14:38:13.557Z"
+                navigationLoginPath_x0040_LastModified="{Date}2022-11-05T14:38:13.557Z"
+                viewProfileLabel="View Profile"
+                viewProfileLabel_x0040_LastModified="{Date}2022-11-10T17:14:07.721Z"/>
+            <capf_navigation_login
+                jcr:mixinTypes="[cq:Taggable,dam:cfVariationNode]"
+                jcr:primaryType="nt:unstructured"
+                _x0040_variationCreationDate="{Date}2022-11-05T14:48:47.849Z"
+                idLabel="ID"
+                idLabel_x0040_LastModified="{Date}2022-11-10T17:10:06.015Z"
+                loginPopup="{Boolean}true"
+                loginPopup_x0040_LastModified="{Date}2022-11-06T08:23:55.677Z"
+                logOutLabel="Log out"
+                logOutLabel_x0040_LastModified="{Date}2022-11-10T17:10:06.016Z"
+                navigationAfterLoginItems="[/content/dam/headless-shark/in/en/content-fragments/global-components/header/login/navigation-after-login-items/capf/account-and-settings]"
+                navigationAfterLoginItems_x0040_LastModified="{Date}2023-01-12T15:35:12.295+05:30"
+                navigationLoginItems_x0040_LastModified="{Date}2022-11-06T08:23:55.678Z"
+                navigationLoginLabel="Login"
+                navigationLoginLabel_x0040_LastModified="{Date}2022-11-05T14:48:47.850Z"
+                navigationLoginPath_x0040_LastModified="{Date}2022-11-05T14:48:47.850Z"
+                viewProfileLabel="View profile"
+                viewProfileLabel_x0040_LastModified="{Date}2022-11-10T17:10:06.015Z"/>
+        </data>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <model jcr:primaryType="nt:unstructured">
+            <variations jcr:primaryType="nt:unstructured">
+                <partner_navigationlogin
+                    jcr:description=""
+                    jcr:mixinTypes="[cq:Taggable]"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="Partner Navigation Login"
+                    name="partner_navigationlogin">
+                    <properties
+                        jcr:primaryType="nt:unstructured"
+                        synchronizeWithVersion="[navigationLoginLabel:30994840-2502-423e-accd-0bd6712f8888,navigationLoginPath:30994840-2502-423e-accd-0bd6712f8888,loginPopup:30994840-2502-423e-accd-0bd6712f8888,navigationLoginItems:30994840-2502-423e-accd-0bd6712f8888]"/>
+                </partner_navigationlogin>
+                <corp_connect_adminnavigationlogin
+                    jcr:description=""
+                    jcr:mixinTypes="[cq:Taggable]"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="Corp Connect Admin Navigation Login"
+                    name="corp_connect_adminnavigationlogin">
+                    <properties
+                        jcr:primaryType="nt:unstructured"
+                        synchronizeWithVersion="[navigationLoginLabel:63bd422d-c093-4b06-9839-a7ba212348ed,navigationLoginPath:63bd422d-c093-4b06-9839-a7ba212348ed,loginPopup:63bd422d-c093-4b06-9839-a7ba212348ed,navigationLoginItems:63bd422d-c093-4b06-9839-a7ba212348ed]"/>
+                </corp_connect_adminnavigationlogin>
+                <corp_connect_usernavigationlogin
+                    jcr:description=""
+                    jcr:mixinTypes="[cq:Taggable]"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="Corp Connect User Navigation Login"
+                    name="corp_connect_usernavigationlogin">
+                    <properties
+                        jcr:primaryType="nt:unstructured"
+                        synchronizeWithVersion="[navigationLoginLabel:3ca59aec-94a4-4049-9bf2-61be0477521a,navigationLoginPath:3ca59aec-94a4-4049-9bf2-61be0477521a,loginPopup:3ca59aec-94a4-4049-9bf2-61be0477521a,navigationLoginItems:3ca59aec-94a4-4049-9bf2-61be0477521a]"/>
+                </corp_connect_usernavigationlogin>
+                <slt_navigation_login
+                    jcr:description=""
+                    jcr:mixinTypes="[cq:Taggable]"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="SLT Navigation Login"
+                    name="slt_navigation_login">
+                    <properties
+                        jcr:primaryType="nt:unstructured"
+                        synchronizeWithVersion="[navigationLoginLabel:9fbec91c-0da0-4781-8917-092b0955818d,navigationLoginPath:9fbec91c-0da0-4781-8917-092b0955818d,loginPopup:9fbec91c-0da0-4781-8917-092b0955818d,navigationLoginItems:9fbec91c-0da0-4781-8917-092b0955818d]"/>
+                </slt_navigation_login>
+                <capf_navigation_login
+                    jcr:description=""
+                    jcr:mixinTypes="[cq:Taggable]"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="CAPF Navigation Login"
+                    name="capf_navigation_login">
+                    <properties
+                        jcr:primaryType="nt:unstructured"
+                        synchronizeWithVersion="[navigationLoginLabel:aa3a993a-40ca-4a1c-a49d-17d2a0f2b9c7,navigationLoginPath:aa3a993a-40ca-4a1c-a49d-17d2a0f2b9c7,loginPopup:aa3a993a-40ca-4a1c-a49d-17d2a0f2b9c7,navigationLoginItems:aa3a993a-40ca-4a1c-a49d-17d2a0f2b9c7]"/>
+                </capf_navigation_login>
+            </variations>
+        </model>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

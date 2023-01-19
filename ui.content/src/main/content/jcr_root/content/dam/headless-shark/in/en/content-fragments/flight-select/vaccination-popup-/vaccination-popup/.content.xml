@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="f7ac2f62-f9d1-4e32-9c38-f83af310c75a">
+    <jcr:content
+        cq:name="vaccination-popup"
+        cq:parentPath="/content/dam/headless-shark/in/en/content-fragments/flight-select/vaccination-popup-"
+        jcr:lastModified="{Date}2023-01-13T13:00:10.597+05:30"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="Vaccination popup"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2023-01-13T13:00:10.597+05:30">
+        <data
+            cq:model="/conf/headless-shark/settings/dam/cfm/models/vaccination-popup"
+            jcr:primaryType="nt:unstructured">
+            <master
+                jcr:mixinTypes="[cq:Taggable,dam:cfVariationNode]"
+                jcr:primaryType="nt:unstructured"
+                continueButtonLabel="Continue"
+                continueButtonLabel_x0040_LastModified="{Date}2023-01-10T11:39:07.541+05:30"
+                vaccinationDisclaimer="&lt;p>&lt;b>Disclaimer:&lt;/b>This&lt;b> &lt;/b>discounted fare is only applicable for passengers aged 18 years and above at the time of booking: (i) are located in India; and (ii) have already got vaccinated in India.&lt;/p>&#xa;"
+                vaccinationDisclaimer_x0040_ContentType="text/html"
+                vaccinationDisclaimer_x0040_LastModified="{Date}2023-01-10T11:39:07.540+05:30"
+                vaccinationDoseAndOffers="[/content/dam/headless-shark/in/en/content-fragments/flight-select/vaccination-popup-/vaccination-dose1,/content/dam/headless-shark/in/en/content-fragments/flight-select/vaccination-popup-/vaccination-dose11,/content/dam/headless-shark/in/en/content-fragments/flight-select/vaccination-popup-/vaccination-dose111]"
+                vaccinationDoseAndOffers_x0040_LastModified="{Date}2023-01-13T13:00:10.576+05:30"
+                vaccinationNote="#You will be asked about for your beneficiary reference ID."
+                vaccinationNote_x0040_LastModified="{Date}2023-01-10T11:39:07.540+05:30"
+                vaccinationSubtitle="&lt;p>Up to 10% off for all our &lt;b>vaccinated &lt;/b>fliers.&lt;/p>&#xa;"
+                vaccinationSubtitle_x0040_ContentType="text/html"
+                vaccinationSubtitle_x0040_LastModified="{Date}2023-01-10T17:13:14.342+05:30"
+                vaccinationTcLabel="*T&amp;C Apply"
+                vaccinationTcLabel_x0040_LastModified="{Date}2023-01-10T11:39:07.540+05:30"
+                vaccinationTcPath="https://www.goindigo.in/add-on-services/vaxi-fare-for-vaccinated-fliers.html"
+                vaccinationTcPath_x0040_LastModified="{Date}2023-01-10T11:39:07.541+05:30"
+                vaccinationTitle="Vaccination Status"
+                vaccinationTitle_x0040_LastModified="{Date}2023-01-10T11:39:07.537+05:30"/>
+        </data>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>
