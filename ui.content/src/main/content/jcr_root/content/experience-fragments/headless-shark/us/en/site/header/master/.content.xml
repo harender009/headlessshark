@@ -29,6 +29,7 @@
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="headless-shark/components/search"
                 searchRoot="/content/headless-shark/us"/>
+            <logo/>
         </root>
     </jcr:content>
 </jcr:root>

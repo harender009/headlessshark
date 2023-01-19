@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2023-01-16T00:00:13.915+05:30"
+        cq:lastModified="{Date}2023-01-19T21:12:04.160+05:30"
         cq:lastModifiedBy="admin"
         cq:template="/conf/headless-shark/settings/wcm/templates/page-content"
         jcr:primaryType="cq:PageContent"
@@ -23,14 +23,14 @@
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="headless-shark/components/container"
                     layout="responsiveGrid">
-                    <dynamiccontainer
-                        jcr:created="{Date}2023-01-15T23:46:06.158+05:30"
+                    <dynamiccontainer_1187788610
+                        jcr:created="{Date}2023-01-19T20:34:14.164+05:30"
                         jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2023-01-16T00:00:13.908+05:30"
+                        jcr:lastModified="{Date}2023-01-19T20:34:34.915+05:30"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="headless-shark/components/dynamiccontainer"
-                        component="hs:dynamic-components/mf-application/mf-booking-widget"
+                        component="hs:dynamic-components/mf-application/mf-main"
                         jsonData="false"/>
                 </container>
             </container>

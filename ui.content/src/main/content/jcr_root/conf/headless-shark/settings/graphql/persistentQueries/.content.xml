@@ -2,16 +2,6 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content jcr:primaryType="nt:unstructured"/>
-    <mf-booking-widget
-        jcr:created="{Date}2023-01-19T19:42:49.684+05:30"
-        jcr:primaryType="nt:unstructured"
-        sling:resourceType="graphql/persistent/query">
-        <jcr:content
-            jcr:data="{Binary}"
-            jcr:mimeType="text/html"
-            jcr:primaryType="nt:unstructured"
-            sling:resourceType="graphql/persistent/query/content"/>
-    </mf-booking-widget>
     <mf-main
         jcr:created="{Date}2023-01-19T20:32:20.039+05:30"
         jcr:primaryType="nt:unstructured"

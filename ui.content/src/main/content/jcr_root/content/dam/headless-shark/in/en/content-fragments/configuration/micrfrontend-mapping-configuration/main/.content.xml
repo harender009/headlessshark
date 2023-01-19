@@ -3,33 +3,31 @@
     jcr:isCheckedOut="{Boolean}true"
     jcr:mixinTypes="[mix:referenceable,mix:versionable]"
     jcr:primaryType="dam:Asset"
-    jcr:uuid="a063eaf1-8ec4-4487-b363-b94f949b295e">
+    jcr:uuid="35bdf892-c821-452c-ba98-baa4bbb86a2b">
     <jcr:content
-        cq:lastModified="{Date}2022-11-08T10:48:42.978+05:30"
-        cq:lastModifiedBy="admin"
-        cq:lastReplicated="{Date}2023-01-12T13:54:14.804Z"
-        cq:lastReplicatedBy="nidhigurania"
+        cq:lastReplicated="{Date}2023-01-19T21:07:25.407+05:30"
+        cq:lastReplicatedBy="admin"
         cq:lastReplicationAction="Activate"
-        cq:name="one-way"
-        cq:parentPath="/content/dam/headless-shark/in/en/content-fragments/global-components/booking-widget1/journey-type"
-        jcr:lastModified="{Date}2022-11-09T13:06:34.020+05:30"
+        cq:name="main"
+        cq:parentPath="/content/dam/headless-shark/in/en/content-fragments/configuration/micrfrontend-mapping-configuration"
+        jcr:lastModified="{Date}2023-01-19T21:06:50.901+05:30"
         jcr:lastModifiedBy="admin"
         jcr:mixinTypes="[cq:ReplicationStatus]"
         jcr:primaryType="dam:AssetContent"
-        jcr:title="One way"
+        jcr:title="main"
         contentFragment="{Boolean}true"
-        lastFragmentSave="{Date}2022-11-09T13:06:34.020+05:30">
+        lastFragmentSave="{Date}2023-01-19T21:06:50.901+05:30">
         <data
-            cq:model="/conf/headless-shark/settings/dam/cfm/models/journey-type-item"
+            cq:model="/conf/headless-shark/settings/dam/cfm/models/headless-shark-configuration-items"
             jcr:primaryType="nt:unstructured">
             <master
+                cq:tags="[hs:dynamic-components/mf-application/mf-main]"
                 jcr:mixinTypes="[cq:Taggable,dam:cfVariationNode]"
                 jcr:primaryType="nt:unstructured"
-                journeyTypeCode="OneWay"
-                journeyTypeCode_x0040_LastModified="{Date}2022-11-09T13:06:34.006+05:30"
-                journeyTypeLabel="One way"
-                journeyTypeLabel_x0040_LastModified="{Date}2022-11-07T13:49:24.499+05:30"
-                journeyTypePath_x0040_LastModified="{Date}2022-11-07T13:49:05.781+05:30"/>
+                mfApplicationName="[hs:dynamic-components/mf-application/mf-main]"
+                mfApplicationName_x0040_LastModified="{Date}2023-01-19T21:06:50.871+05:30"
+                mfApplicationUrl="http://localhost:3001"
+                mfApplicationUrl_x0040_LastModified="{Date}2023-01-19T21:06:50.871+05:30"/>
         </data>
         <metadata
             jcr:mixinTypes="[cq:Taggable]"

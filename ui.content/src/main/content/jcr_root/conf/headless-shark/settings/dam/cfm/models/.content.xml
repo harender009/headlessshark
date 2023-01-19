@@ -3,50 +3,6 @@
     jcr:primaryType="cq:Page">
     <headless-shark-configuration/>
     <headless-shark-configuration-items/>
-    <fare-type-list/>
-    <fare-type-items/>
-    <booking-widget/>
-    <steppers/>
-    <side-pane-tab-faq-items/>
-    <pax-information/>
-    <pnrdetails/>
-    <booking-widget-tabs/>
-    <side-pane-tabs/>
-    <slide-pane-content/>
-    <special-fare-item/>
-    <special-fares-list/>
     <jcr:content jcr:primaryType="nt:unstructured"/>
-    <hamburger/>
-    <stepper-flow/>
-    <login/>
-    <navigation-login-items/>
-    <navigation-login/>
-    <nationality-popup/>
-    <journey-type-item/>
-    <faq-/>
-    <extra-seats-/>
-    <complete-booking-timer/>
-    <session-timeout/>
-    <vaccination-popup/>
-    <vaccination-dose-and-offers/>
-    <travel-guideline-popup/>
-    <contact-details-popup/>
-    <privacy-policy-description/>
-    <whatsapp-description/>
-    <gst-description/>
-    <flexi-upsell-popup/>
-    <search-results/>
-    <code-share/>
-    <information-popup-/>
-    <filter-values/>
-    <flight-search-loader/>
-    <flight-info---modify/>
-    <fare-category-description-popup/>
-    <fare-category-columns/>
-    <flight-details-popup/>
-    <key-value-model/>
-    <srp-popup-data/>
-    <info-error-messages-list/>
-    <info-error-message-item/>
     <headless-shark-main/>
 </jcr:root>
