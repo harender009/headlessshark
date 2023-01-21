@@ -120,12 +120,12 @@
             <version>${project.version}</version>
         </dependency>
 
-        <dependency>
+       <!-- <dependency>
             <groupId>com.hs</groupId>
             <artifactId>headless-shark.ui.frontend</artifactId>
             <version>${project.version}</version>
             <type>zip</type>
-        </dependency>
+        </dependency>-->
 
 
         <dependency>
