@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <workspaceFilter version="1.0">
-    <filter root="/conf/headless-shark" mode="merge"/>
-    <filter root="/content/headless-shark" mode="merge"/>
-    <filter root="/content/cq:tags/hs" mode="merge"/>
+    <filter root="/conf/headless-shark"/>
+    <filter root="/content/headless-shark"/>
+    <filter root="/content/cq:tags/hs"/>
     <filter root="/content/cq:graphql"/>
     <filter root="/content/dam/headless-shark"/>
     <filter root="/content/experience-fragments/headless-shark" mode="merge"/>
