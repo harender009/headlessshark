@@ -11,6 +11,7 @@
         cq:name="header"
         cq:parentPath="/content/dam/headless-shark/in/hi/content-fragments"
         cq:translationSourcePath="/content/dam/headless-shark/in/en/content-fragments/header"
+        cq:versionCreator="admin"
         jcr:lastModified="{Date}2023-01-21T18:07:17.221+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent"

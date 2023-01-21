@@ -11,12 +11,12 @@
         cq:name="product-listing"
         cq:parentPath="/content/dam/headless-shark/in/fr/content-fragments"
         cq:translationSourcePath="/content/dam/headless-shark/in/en/content-fragments/product-listing"
-        jcr:lastModified="{Date}2023-01-21T18:59:40.949+05:30"
+        jcr:lastModified="{Date}2023-01-21T20:08:03.848+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent"
         jcr:title="Product Listing"
         contentFragment="{Boolean}true"
-        lastFragmentSave="{Date}2023-01-21T18:59:40.949+05:30">
+        lastFragmentSave="{Date}2023-01-21T20:08:03.848+05:30">
         <data
             cq:model="/conf/headless-shark/settings/dam/cfm/models/product-listing"
             jcr:primaryType="nt:unstructured">
@@ -28,8 +28,8 @@
                 description="&lt;p>Choisissez votre produit préféré parmi notre large sélection de produits disponibles et faites-vous livrer à votre domicile.&lt;/p>&#xa;&lt;p>&amp;nbsp;&lt;/p>&#xa;&lt;p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation&lt;/p>&#xa;"
                 description_x0040_ContentType="text/html"
                 description_x0040_LastModified="{Date}2023-01-21T18:59:40.918+05:30"
-                products="[/content/dam/headless-shark/in/en/content-fragments/products/watch---m1,/content/dam/headless-shark/in/en/content-fragments/products/airpods---m2,/content/dam/headless-shark/in/en/content-fragments/products/perfume---m3,/content/dam/headless-shark/in/en/content-fragments/products/m4]"
-                products_x0040_LastModified="{Date}2023-01-21T14:29:06.356+05:30"
+                products="[/content/dam/headless-shark/in/fr/content-fragments/products/watch---m1,/content/dam/headless-shark/in/fr/content-fragments/products/airpods---m2,/content/dam/headless-shark/in/fr/content-fragments/products/perfume---m3,/content/dam/headless-shark/in/fr/content-fragments/products/m4]"
+                products_x0040_LastModified="{Date}2023-01-21T20:08:03.832+05:30"
                 quantityLabel="Quantité"
                 quantityLabel_x0040_LastModified="{Date}2023-01-21T18:59:40.919+05:30"
                 title="HS : Commandez ici et faites-vous livrer"
