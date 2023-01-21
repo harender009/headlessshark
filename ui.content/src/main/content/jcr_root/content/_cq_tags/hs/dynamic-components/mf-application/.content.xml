@@ -6,8 +6,7 @@
     jcr:primaryType="cq:Tag"
     jcr:title="MF application"
     sling:resourceType="cq/tagging/components/tag">
-    <mf-booking-widget/>
-    <mf-login/>
-    <mf-search-results/>
-    <mf-main/>
+    <react-prod/>
+    <react-header/>
+    <react-cart/>
 </jcr:root>

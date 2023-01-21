@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="9a1019ad-7287-479c-9b99-fb3ea8c420c0">
+    <jcr:content
+        cq:name="watch---m1"
+        cq:parentPath="/content/dam/headless-shark/in/en/content-fragments/products"
+        jcr:lastModified="{Date}2023-01-21T12:55:33.545+05:30"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="Watch - m1"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2023-01-21T12:55:33.545+05:30">
+        <data
+            cq:model="/conf/headless-shark/settings/dam/cfm/models/product"
+            jcr:primaryType="nt:unstructured">
+            <master
+                jcr:mixinTypes="[cq:Taggable,dam:cfVariationNode]"
+                jcr:primaryType="nt:unstructured"
+                description="Comes with a premium built-in speaker and bluetooth calling via which you can stay connected"
+                description_x0040_LastModified="{Date}2023-01-21T12:55:33.514+05:30"
+                id="m1"
+                id_x0040_LastModified="{Date}2023-01-21T12:55:33.513+05:30"
+                name="Watch"
+                name_x0040_LastModified="{Date}2023-01-21T12:55:33.514+05:30"/>
+        </data>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

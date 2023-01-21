@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="ba1ca68f-a7e6-468f-a38e-924d5509950c">
+    <jcr:content
+        cq:lastReplicated="{Date}2023-01-12T14:12:25.075Z"
+        cq:lastReplicatedBy="harenderk"
+        cq:lastReplicationAction="Activate"
+        cq:name="login"
+        cq:parentPath="/content/dam/headless-shark/in/en/content-fragments/configuration/micrfrontend-mapping-configuration"
+        jcr:lastModified="{Date}2023-01-19T22:36:55.187+05:30"
+        jcr:lastModifiedBy="admin"
+        jcr:mixinTypes="[cq:ReplicationStatus]"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="login"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2023-01-19T22:36:55.187+05:30">
+        <data
+            cq:model="/conf/headless-shark/settings/dam/cfm/models/headless-shark-configuration-items"
+            jcr:primaryType="nt:unstructured">
+            <master
+                cq:tags="[hs:dynamic-components/mf-application/mf-login]"
+                jcr:mixinTypes="[cq:Taggable,dam:cfVariationNode]"
+                jcr:primaryType="nt:unstructured"
+                mfApplicationName="[hs:dynamic-components/mf-application/mf-login]"
+                mfApplicationName_x0040_LastModified="{Date}2023-01-19T22:36:55.153+05:30"
+                mfApplicationUrl="https://app-login-dev-skyplus6e.goindigo.in"
+                mfApplicationUrl_x0040_LastModified="{Date}2023-01-12T14:11:44.877Z"/>
+        </data>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

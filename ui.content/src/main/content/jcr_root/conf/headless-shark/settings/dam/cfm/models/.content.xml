@@ -4,5 +4,8 @@
     <headless-shark-configuration/>
     <headless-shark-configuration-items/>
     <jcr:content jcr:primaryType="nt:unstructured"/>
-    <headless-shark-main/>
+    <header-model/>
+    <product-listing/>
+    <product/>
+    <cart/>
 </jcr:root>

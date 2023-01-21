@@ -1,0 +1,17 @@
+query headlessSharkProductListing($variation:String!) {
+  productListingByPath(_path:"/content/dam/headless-shark/in/en/content-fragments/product-listing",variation:$variation){
+    item{
+      title
+      description {
+        html
+      }
+      quantityLabel
+      addLabel
+      products {
+        id
+        name
+        description
+      }
+    }  
+  }
+}

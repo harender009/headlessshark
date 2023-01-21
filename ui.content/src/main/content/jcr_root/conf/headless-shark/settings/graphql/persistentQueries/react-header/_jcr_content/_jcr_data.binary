@@ -1,0 +1,9 @@
+query headlessSharkProductListing($variation:String!) {
+  headerModelByPath(_path:"/content/dam/headless-shark/in/en/content-fragments/header",variation:$variation){
+    item{
+      title
+      cartLabel
+      image
+	}
+  }
+}

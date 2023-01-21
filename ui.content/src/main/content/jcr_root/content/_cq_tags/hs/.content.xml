@@ -5,8 +5,5 @@
     jcr:primaryType="cq:Tag"
     jcr:title="Headless Shark"
     sling:resourceType="cq/tagging/components/tag">
-    <icons/>
     <dynamic-components/>
-    <variations/>
-    <login/>
 </jcr:root>
