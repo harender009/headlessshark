@@ -1,8 +1,8 @@
-query headlessSharkProductListing($variation:String!) {
-  cartByPath(_path:"/content/dam/headless-shark/in/en/content-fragments/cart",variation:$variation){
-    item{
+query headlessSharkProductListing($locale:String!,$variation:String!) {
+  cartList(_locale:$locale, variation:$variation){
+    items{
       totalAmountLabel
       closeButtonLabel
-  	}
-	}
+    }
+  }
 }

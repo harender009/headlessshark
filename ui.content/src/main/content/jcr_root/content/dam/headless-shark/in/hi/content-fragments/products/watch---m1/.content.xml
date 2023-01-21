@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="9780bcf1-65c9-4a60-a85f-832f365c2ac2">
+    <jcr:content
+        cq:lastModified="{Date}2023-01-21T18:03:08.338+05:30"
+        cq:lastModifiedBy="admin"
+        cq:lastTranslationUpdate="{Date}2023-01-21T18:03:08.338+05:30"
+        cq:name="watch---m1"
+        cq:parentPath="/content/dam/headless-shark/in/hi/content-fragments/products"
+        cq:translationSourcePath="/content/dam/headless-shark/in/en/content-fragments/products/watch---m1"
+        jcr:lastModified="{Date}2023-01-21T18:25:38.483+05:30"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="Watch - m1"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2023-01-21T18:25:38.483+05:30">
+        <data
+            cq:model="/conf/headless-shark/settings/dam/cfm/models/product"
+            jcr:primaryType="nt:unstructured">
+            <master
+                jcr:mixinTypes="[cq:Taggable,dam:cfVariationNode]"
+                jcr:primaryType="nt:unstructured"
+                description="प्रीमियम बिल्ट-इन स्पीकर और ब्लूटूथ कॉलिंग के साथ आता है जिससे आप जुड़े रह सकते हैं"
+                description_x0040_LastModified="{Date}2023-01-21T18:25:38.400+05:30"
+                id="m1"
+                id_x0040_LastModified="{Date}2023-01-21T12:55:33.513+05:30"
+                name="घड़ी"
+                name_x0040_LastModified="{Date}2023-01-21T18:25:38.399+05:30"/>
+        </data>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

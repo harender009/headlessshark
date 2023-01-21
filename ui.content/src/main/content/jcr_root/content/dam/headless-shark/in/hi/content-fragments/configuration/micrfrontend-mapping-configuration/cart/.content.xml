@@ -3,31 +3,31 @@
     jcr:isCheckedOut="{Boolean}true"
     jcr:mixinTypes="[mix:referenceable,mix:versionable]"
     jcr:primaryType="dam:Asset"
-    jcr:uuid="ba1ca68f-a7e6-468f-a38e-924d5509950c">
+    jcr:uuid="c22f0e8b-559a-41a2-861a-c42fd3b59c65">
     <jcr:content
-        cq:lastReplicated="{Date}2023-01-12T14:12:25.075Z"
-        cq:lastReplicatedBy="harenderk"
+        cq:lastReplicated="{Date}2023-01-21T18:45:33.902+05:30"
+        cq:lastReplicatedBy="admin"
         cq:lastReplicationAction="Activate"
-        cq:name="login"
+        cq:name="cart"
         cq:parentPath="/content/dam/headless-shark/in/en/content-fragments/configuration/micrfrontend-mapping-configuration"
-        jcr:lastModified="{Date}2023-01-19T22:36:55.187+05:30"
+        jcr:lastModified="{Date}2023-01-21T18:44:29.498+05:30"
         jcr:lastModifiedBy="admin"
         jcr:mixinTypes="[cq:ReplicationStatus]"
         jcr:primaryType="dam:AssetContent"
-        jcr:title="login"
+        jcr:title="Cart"
         contentFragment="{Boolean}true"
-        lastFragmentSave="{Date}2023-01-19T22:36:55.187+05:30">
+        lastFragmentSave="{Date}2023-01-21T18:44:29.498+05:30">
         <data
             cq:model="/conf/headless-shark/settings/dam/cfm/models/headless-shark-configuration-items"
             jcr:primaryType="nt:unstructured">
             <master
-                cq:tags="[hs:dynamic-components/mf-application/mf-login]"
+                cq:tags="[hs:dynamic-components/mf-application/react-cart]"
                 jcr:mixinTypes="[cq:Taggable,dam:cfVariationNode]"
                 jcr:primaryType="nt:unstructured"
-                mfApplicationName="[hs:dynamic-components/mf-application/mf-login]"
-                mfApplicationName_x0040_LastModified="{Date}2023-01-19T22:36:55.153+05:30"
-                mfApplicationUrl="https://app-login-dev-skyplus6e.goindigo.in"
-                mfApplicationUrl_x0040_LastModified="{Date}2023-01-12T14:11:44.877Z"/>
+                mfApplicationName="[hs:dynamic-components/mf-application/react-cart]"
+                mfApplicationName_x0040_LastModified="{Date}2023-01-21T18:44:29.468+05:30"
+                mfApplicationUrl="https://unrivaled-cendol-7e6e4a.netlify.app"
+                mfApplicationUrl_x0040_LastModified="{Date}2023-01-21T18:44:29.469+05:30"/>
         </data>
         <metadata
             jcr:mixinTypes="[cq:Taggable]"

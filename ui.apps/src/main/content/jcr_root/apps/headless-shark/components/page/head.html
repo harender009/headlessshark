@@ -36,6 +36,9 @@
         const AEM_GRAPHQL_API_ENDPOINT = "${config.graphQLUrl @ context="unsafe"}";
         winObj["aemGraphqlApiEndpoint"] = AEM_GRAPHQL_API_ENDPOINT;
 
+        let LOCALE = "${config.locale @ context="scriptString"}";
+        winObj["locale"] = LOCALE;
+
         let configObjFromAEM = "${config.mfApplicationName @ context="scriptString"}";
 
         const parsedObjFromAem = JSON.parse(configObjFromAEM)

@@ -8,4 +8,6 @@
         jcr:title="us"
         sling:resourceType="headless-shark/components/page"/>
     <en/>
+    <hi/>
+    <fr/>
 </jcr:root>

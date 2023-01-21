@@ -3,31 +3,31 @@
     jcr:isCheckedOut="{Boolean}true"
     jcr:mixinTypes="[mix:referenceable,mix:versionable]"
     jcr:primaryType="dam:Asset"
-    jcr:uuid="35bdf892-c821-452c-ba98-baa4bbb86a2b">
+    jcr:uuid="cf3b3500-f186-4c49-8f5f-29f334c24ea9">
     <jcr:content
-        cq:lastReplicated="{Date}2023-01-19T21:07:25.407+05:30"
+        cq:lastReplicated="{Date}2023-01-21T18:45:59.610+05:30"
         cq:lastReplicatedBy="admin"
         cq:lastReplicationAction="Activate"
-        cq:name="main"
+        cq:name="products"
         cq:parentPath="/content/dam/headless-shark/in/en/content-fragments/configuration/micrfrontend-mapping-configuration"
-        jcr:lastModified="{Date}2023-01-19T21:06:50.901+05:30"
+        jcr:lastModified="{Date}2023-01-21T18:43:38.659+05:30"
         jcr:lastModifiedBy="admin"
         jcr:mixinTypes="[cq:ReplicationStatus]"
         jcr:primaryType="dam:AssetContent"
-        jcr:title="main"
+        jcr:title="Products"
         contentFragment="{Boolean}true"
-        lastFragmentSave="{Date}2023-01-19T21:06:50.901+05:30">
+        lastFragmentSave="{Date}2023-01-21T18:43:38.659+05:30">
         <data
             cq:model="/conf/headless-shark/settings/dam/cfm/models/headless-shark-configuration-items"
             jcr:primaryType="nt:unstructured">
             <master
-                cq:tags="[hs:dynamic-components/mf-application/mf-main]"
+                cq:tags="[hs:dynamic-components/mf-application/react-prod]"
                 jcr:mixinTypes="[cq:Taggable,dam:cfVariationNode]"
                 jcr:primaryType="nt:unstructured"
-                mfApplicationName="[hs:dynamic-components/mf-application/mf-main]"
-                mfApplicationName_x0040_LastModified="{Date}2023-01-19T21:06:50.871+05:30"
-                mfApplicationUrl="http://localhost:3001"
-                mfApplicationUrl_x0040_LastModified="{Date}2023-01-19T21:06:50.871+05:30"/>
+                mfApplicationName="[hs:dynamic-components/mf-application/react-prod]"
+                mfApplicationName_x0040_LastModified="{Date}2023-01-21T18:43:38.585+05:30"
+                mfApplicationUrl="https://jade-custard-f3cba2.netlify.app"
+                mfApplicationUrl_x0040_LastModified="{Date}2023-01-21T18:43:38.587+05:30"/>
         </data>
         <metadata
             jcr:mixinTypes="[cq:Taggable]"

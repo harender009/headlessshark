@@ -85,6 +85,16 @@ public class HeadlessSharkConfigurationsModel implements ComponentExporter {
 	public String getGraphQLUrl() {
 		return headlessSharkConfiguration.getGraphqlEndpoint();
 	}
+
+	public String getLocale() {
+		String locale = "";
+		try {
+			locale = resource.getPath().split("/")[4];
+		} catch (Exception e){
+
+		}
+		return locale;
+	}
 	
 	public String getMfApplicationName() {
 		

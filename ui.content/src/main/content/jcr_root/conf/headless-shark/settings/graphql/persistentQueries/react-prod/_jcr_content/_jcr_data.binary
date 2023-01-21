@@ -1,6 +1,6 @@
-query headlessSharkProductListing($variation:String!) {
-  productListingByPath(_path:"/content/dam/headless-shark/in/en/content-fragments/product-listing",variation:$variation){
-    item{
+query headlessSharkProductListing($locale:String!,$variation:String!) {
+  productListingList(_locale:$locale, variation:$variation) {
+    items{
       title
       description {
         html

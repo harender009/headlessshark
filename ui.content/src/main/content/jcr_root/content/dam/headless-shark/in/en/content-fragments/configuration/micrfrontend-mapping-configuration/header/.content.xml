@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="140dfd39-5644-446e-9b46-992448b2a631">
+    <jcr:content
+        cq:lastReplicated="{Date}2023-01-21T18:45:12.342+05:30"
+        cq:lastReplicatedBy="admin"
+        cq:lastReplicationAction="Activate"
+        cq:name="header"
+        cq:parentPath="/content/dam/headless-shark/in/en/content-fragments/configuration/micrfrontend-mapping-configuration"
+        jcr:lastModified="{Date}2023-01-21T18:44:03.693+05:30"
+        jcr:lastModifiedBy="admin"
+        jcr:mixinTypes="[cq:ReplicationStatus]"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="Header"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2023-01-21T18:44:03.693+05:30">
+        <data
+            cq:model="/conf/headless-shark/settings/dam/cfm/models/headless-shark-configuration-items"
+            jcr:primaryType="nt:unstructured">
+            <master
+                cq:tags="[hs:dynamic-components/mf-application/react-header]"
+                jcr:mixinTypes="[cq:Taggable,dam:cfVariationNode]"
+                jcr:primaryType="nt:unstructured"
+                mfApplicationName="[hs:dynamic-components/mf-application/react-header]"
+                mfApplicationName_x0040_LastModified="{Date}2023-01-21T18:44:03.638+05:30"
+                mfApplicationUrl="https://sweet-torrone-97c1af.netlify.app"
+                mfApplicationUrl_x0040_LastModified="{Date}2023-01-21T18:44:03.639+05:30"/>
+        </data>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

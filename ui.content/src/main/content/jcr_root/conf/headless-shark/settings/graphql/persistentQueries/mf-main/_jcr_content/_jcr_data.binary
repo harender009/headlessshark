@@ -1,0 +1,11 @@
+query headlessSharkMain($variation:String!) {
+  headlessSharkMainByPath(_path:"/content/dam/headless-shark/in/en/content-fragments/main",variation:$variation){
+    item{
+      title
+      description {
+        html
+      }
+      image  
+    }  
+  }
+}

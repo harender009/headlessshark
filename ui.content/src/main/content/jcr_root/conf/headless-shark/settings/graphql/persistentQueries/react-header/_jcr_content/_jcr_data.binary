@@ -1,6 +1,6 @@
-query headlessSharkProductListing($variation:String!) {
-  headerModelByPath(_path:"/content/dam/headless-shark/in/en/content-fragments/header",variation:$variation){
-    item{
+query headlessSharkHeader($locale:String!,$variation:String!) {
+  headerModelList(_locale:$locale, variation:$variation){
+    items{
       title
       cartLabel
       image

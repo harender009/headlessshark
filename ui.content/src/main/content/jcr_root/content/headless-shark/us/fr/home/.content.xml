@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2023-01-21T13:29:30.933+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/headless-shark/settings/wcm/templates/empty-page"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="HS Product Shoppe"
+        sling:resourceType="headless-shark/components/page">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="headless-shark/components/container"
+            layout="responsiveGrid">
+            <container
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="headless-shark/components/container"
+                layout="responsiveGrid">
+                <dynamiccontainer
+                    jcr:created="{Date}2023-01-20T16:53:57.300+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2023-01-21T13:18:17.694+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="headless-shark/components/dynamiccontainer"
+                    component="hs:dynamic-components/mf-application/react-header"
+                    jsonData="false"/>
+                <dynamiccontainer_260209199
+                    jcr:created="{Date}2023-01-21T13:18:32.605+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2023-01-21T13:18:47.558+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="headless-shark/components/dynamiccontainer"
+                    component="hs:dynamic-components/mf-application/react-prod"
+                    jsonData="false"/>
+                <dynamiccontainer_1780564222
+                    jcr:created="{Date}2023-01-21T13:29:18.051+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2023-01-21T13:29:30.932+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="headless-shark/components/dynamiccontainer"
+                    component="hs:dynamic-components/mf-application/react-cart"
+                    jsonData="false"/>
+            </container>
+        </root>
+    </jcr:content>
+</jcr:root>

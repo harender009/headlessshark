@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="836cb4c1-1bd4-44a9-8d37-4e62fd367196">
+    <jcr:content
+        cq:lastModified="{Date}2023-01-21T17:59:07.513+05:30"
+        cq:lastModifiedBy="admin"
+        cq:lastTranslationUpdate="{Date}2023-01-21T17:59:07.513+05:30"
+        cq:name="product-listing"
+        cq:parentPath="/content/dam/headless-shark/in/en/content-fragments"
+        cq:translationSourcePath="/content/dam/headless-shark/in/en/content-fragments/product-listing"
+        jcr:lastModified="{Date}2023-01-21T14:29:06.372+05:30"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="Product Listing"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2023-01-21T14:29:06.372+05:30">
+        <data
+            cq:model="/conf/headless-shark/settings/dam/cfm/models/product-listing"
+            jcr:primaryType="nt:unstructured">
+            <master
+                jcr:mixinTypes="[cq:Taggable,dam:cfVariationNode]"
+                jcr:primaryType="nt:unstructured"
+                addLabel="Add"
+                addLabel_x0040_LastModified="{Date}2023-01-21T13:09:58.559+05:30"
+                description="&lt;p>Choose your favorite product from our broad selection of available products and get them delivered to your home.&lt;/p>&#xa;&lt;p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation&lt;/p>&#xa;"
+                description_x0040_ContentType="text/html"
+                description_x0040_LastModified="{Date}2023-01-21T14:29:06.355+05:30"
+                products="[/content/dam/headless-shark/in/en/content-fragments/products/watch---m1,/content/dam/headless-shark/in/en/content-fragments/products/airpods---m2,/content/dam/headless-shark/in/en/content-fragments/products/perfume---m3,/content/dam/headless-shark/in/en/content-fragments/products/m4]"
+                products_x0040_LastModified="{Date}2023-01-21T14:29:06.356+05:30"
+                quantityLabel="Quantity"
+                quantityLabel_x0040_LastModified="{Date}2023-01-21T13:09:58.559+05:30"
+                title="HS : Order here and get it delivered to you"
+                title_x0040_LastModified="{Date}2023-01-21T13:09:58.557+05:30"/>
+        </data>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

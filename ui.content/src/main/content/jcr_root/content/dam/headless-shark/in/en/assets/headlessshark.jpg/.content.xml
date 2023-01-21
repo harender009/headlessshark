@@ -1,17 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jcr:root xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
-    jcr:mixinTypes="[mix:referenceable]"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
     jcr:primaryType="dam:Asset"
     jcr:uuid="65fe14c8-26a0-404c-b85a-2c3e78d4a3bb">
     <jcr:content
+        cq:name="headlessshark.jpg"
+        cq:parentPath="/content/dam/headless-shark/in/en/assets"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2023-01-21T12:53:00.540+05:30"
+        jcr:lastModified="{Date}2023-01-21T16:38:23.339+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
             dam:Bitsperpixel="{Long}24"
             dam:Comments="CREATOR: gd-jpeg v1.0 (using IJG JPEG v62), quality = 82&#xa;&#xa;"
-            dam:extracted="{Date}2023-01-21T12:53:00.071+05:30"
+            dam:extracted="{Date}2023-01-21T16:38:22.868+05:30"
             dam:Fileformat="JPEG"
             dam:MIMEtype="image/jpeg"
             dam:Numberofimages="{Long}1"
@@ -21,9 +24,12 @@
             dam:Physicalwidthindpi="{Long}96"
             dam:Physicalwidthininches="{Decimal}10.666666984558105"
             dam:Progressive="no"
-            dam:sha1="790bc3110f694da0398cf1d643e843516873c3d0"
+            dam:sha1="f0b4d83e8645a2f61af7d2fe603a4d66ab767f7b"
             dam:size="{Long}181415"
             dc:format="image/jpeg"
+            dc:modified="{Date}2023-01-21T16:38:22.847+05:30"
+            jcr:lastModified="{Date}2023-01-21T16:38:22.847+05:30"
+            jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"
             tiff:ImageLength="{Long}576"

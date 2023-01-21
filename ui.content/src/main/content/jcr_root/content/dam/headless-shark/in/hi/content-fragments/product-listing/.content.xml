@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="ee5c7e62-364f-442e-8ca4-d031dc315177">
+    <jcr:content
+        cq:lastModified="{Date}2023-01-21T18:03:07.704+05:30"
+        cq:lastModifiedBy="admin"
+        cq:lastTranslationUpdate="{Date}2023-01-21T18:03:07.704+05:30"
+        cq:name="product-listing"
+        cq:parentPath="/content/dam/headless-shark/in/hi/content-fragments"
+        cq:translationSourcePath="/content/dam/headless-shark/in/en/content-fragments/product-listing"
+        jcr:lastModified="{Date}2023-01-21T18:24:59.405+05:30"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="Product Listing"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2023-01-21T18:24:59.405+05:30">
+        <data
+            cq:model="/conf/headless-shark/settings/dam/cfm/models/product-listing"
+            jcr:primaryType="nt:unstructured">
+            <master
+                jcr:mixinTypes="[cq:Taggable,dam:cfVariationNode]"
+                jcr:primaryType="nt:unstructured"
+                addLabel="जोड़ें"
+                addLabel_x0040_LastModified="{Date}2023-01-21T18:24:59.339+05:30"
+                description="&lt;p>उपलब्ध उत्पादों के हमारे व्यापक चयन में से अपना पसंदीदा उत्पाद चुनें और उन्हें अपने घर पहुंचाएं।&lt;/p>&#xa;&lt;p>&amp;nbsp;&lt;/p>&#xa;&lt;p>लोरेम इप्सम डोलर सिट एमेट, कॉन्सेक्टेटुर एडिपिसिंग एलीट, सेड डो इयूमोड टेम्पोर इंसिडेंट यूट लेबोर एट डोलोरे मैग्ना एलिक्वा। यह एनिम एड मिनिम वेनियम, क्विस नॉस्ट्रड एक्सरसाइज है&lt;/p>&#xa;"
+                description_x0040_ContentType="text/html"
+                description_x0040_LastModified="{Date}2023-01-21T18:24:59.336+05:30"
+                products="[/content/dam/headless-shark/in/en/content-fragments/products/watch---m1,/content/dam/headless-shark/in/en/content-fragments/products/airpods---m2,/content/dam/headless-shark/in/en/content-fragments/products/perfume---m3,/content/dam/headless-shark/in/en/content-fragments/products/m4]"
+                products_x0040_LastModified="{Date}2023-01-21T14:29:06.356+05:30"
+                quantityLabel="मात्रा"
+                quantityLabel_x0040_LastModified="{Date}2023-01-21T18:24:59.337+05:30"
+                title=" यहां ऑर्डर करें और इसे आप तक पहुंचाएं"
+                title_x0040_LastModified="{Date}2023-01-21T18:24:59.334+05:30"/>
+        </data>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

@@ -10,21 +10,21 @@
         cq:lastReplicationAction="Activate"
         cq:name="mf-application"
         cq:parentPath="/content/dam/headless-shark/in/en/content-fragments/configuration/micrfrontend-mapping-configuration"
-        jcr:lastModified="{Date}2023-01-19T22:34:58.861+05:30"
+        jcr:lastModified="{Date}2023-01-21T18:46:50.294+05:30"
         jcr:lastModifiedBy="admin"
         jcr:mixinTypes="[cq:ReplicationStatus]"
         jcr:primaryType="dam:AssetContent"
         jcr:title="MF application"
         contentFragment="{Boolean}true"
-        lastFragmentSave="{Date}2023-01-19T22:34:58.861+05:30">
+        lastFragmentSave="{Date}2023-01-21T18:46:50.294+05:30">
         <data
             cq:model="/conf/headless-shark/settings/dam/cfm/models/headless-shark-configuration"
             jcr:primaryType="nt:unstructured">
             <master
                 jcr:mixinTypes="[cq:Taggable,dam:cfVariationNode]"
                 jcr:primaryType="nt:unstructured"
-                mfApplications="[/content/dam/headless-shark/in/en/content-fragments/configuration/micrfrontend-mapping-configuration/main,/content/dam/headless-shark/in/en/content-fragments/configuration/micrfrontend-mapping-configuration/login,/content/dam/headless-shark/in/en/content-fragments/configuration/micrfrontend-mapping-configuration/booking-widget]"
-                mfApplications_x0040_LastModified="{Date}2023-01-19T22:34:58.830+05:30"/>
+                mfApplications="[/content/dam/headless-shark/in/en/content-fragments/configuration/micrfrontend-mapping-configuration/products,/content/dam/headless-shark/in/en/content-fragments/configuration/micrfrontend-mapping-configuration/header,/content/dam/headless-shark/in/en/content-fragments/configuration/micrfrontend-mapping-configuration/cart]"
+                mfApplications_x0040_LastModified="{Date}2023-01-21T18:46:50.265+05:30"/>
         </data>
         <metadata
             jcr:mixinTypes="[cq:Taggable]"

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="d1779032-6c97-4f2d-95b7-ba58582071d7">
+    <jcr:content
+        cq:lastModified="{Date}2023-01-21T18:03:07.633+05:30"
+        cq:lastModifiedBy="admin"
+        cq:lastTranslationUpdate="{Date}2023-01-21T18:03:07.633+05:30"
+        cq:name="cart"
+        cq:parentPath="/content/dam/headless-shark/in/hi/content-fragments"
+        cq:translationSourcePath="/content/dam/headless-shark/in/en/content-fragments/cart"
+        jcr:lastModified="{Date}2023-01-21T18:05:43.100+05:30"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="Cart"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2023-01-21T18:05:43.100+05:30">
+        <data
+            cq:model="/conf/headless-shark/settings/dam/cfm/models/cart"
+            jcr:primaryType="nt:unstructured">
+            <master
+                jcr:mixinTypes="[cq:Taggable,dam:cfVariationNode]"
+                jcr:primaryType="nt:unstructured"
+                closeButtonLabel="बंद"
+                closeButtonLabel_x0040_LastModified="{Date}2023-01-21T18:05:34.310+05:30"
+                totalAmountLabel="कुल राशि"
+                totalAmountLabel_x0040_LastModified="{Date}2023-01-21T18:05:43.050+05:30"/>
+        </data>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>
