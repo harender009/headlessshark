@@ -4,6 +4,7 @@ clientlib-site/1008.js
 clientlib-site/1067.js
 clientlib-site/1093.js
 clientlib-site/1121.js
+clientlib-site/1950.js
 clientlib-site/200.js
 clientlib-site/2067.js
 clientlib-site/220.js
@@ -43,7 +44,6 @@ clientlib-site/6546.js
 clientlib-site/6700.js
 clientlib-site/6846.js
 clientlib-site/6891.js
-clientlib-site/6906.js
 clientlib-site/6965.js
 clientlib-site/7089.js
 clientlib-site/7139.js
