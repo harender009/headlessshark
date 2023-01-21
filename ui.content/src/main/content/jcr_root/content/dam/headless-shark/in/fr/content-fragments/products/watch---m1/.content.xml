@@ -9,26 +9,26 @@
         cq:lastModifiedBy="admin"
         cq:lastTranslationUpdate="{Date}2023-01-21T17:59:08.158+05:30"
         cq:name="watch---m1"
-        cq:parentPath="/content/dam/headless-shark/in/en/content-fragments/products"
+        cq:parentPath="/content/dam/headless-shark/in/fr/content-fragments/products"
         cq:translationSourcePath="/content/dam/headless-shark/in/en/content-fragments/products/watch---m1"
-        jcr:lastModified="{Date}2023-01-21T12:55:33.545+05:30"
+        jcr:lastModified="{Date}2023-01-21T19:01:18.490+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent"
         jcr:title="Watch - m1"
         contentFragment="{Boolean}true"
-        lastFragmentSave="{Date}2023-01-21T12:55:33.545+05:30">
+        lastFragmentSave="{Date}2023-01-21T19:01:18.490+05:30">
         <data
             cq:model="/conf/headless-shark/settings/dam/cfm/models/product"
             jcr:primaryType="nt:unstructured">
             <master
                 jcr:mixinTypes="[cq:Taggable,dam:cfVariationNode]"
                 jcr:primaryType="nt:unstructured"
-                description="Comes with a premium built-in speaker and bluetooth calling via which you can stay connected"
-                description_x0040_LastModified="{Date}2023-01-21T12:55:33.514+05:30"
+                description="Livré avec un haut-parleur intégré haut de gamme et des appels Bluetooth via lesquels vous pouvez rester connecté"
+                description_x0040_LastModified="{Date}2023-01-21T19:01:18.422+05:30"
                 id="m1"
                 id_x0040_LastModified="{Date}2023-01-21T12:55:33.513+05:30"
-                name="Watch"
-                name_x0040_LastModified="{Date}2023-01-21T12:55:33.514+05:30"/>
+                name="Montre"
+                name_x0040_LastModified="{Date}2023-01-21T19:01:18.420+05:30"/>
         </data>
         <metadata
             jcr:mixinTypes="[cq:Taggable]"

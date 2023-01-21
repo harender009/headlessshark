@@ -9,26 +9,26 @@
         cq:lastModifiedBy="admin"
         cq:lastTranslationUpdate="{Date}2023-01-21T17:59:07.606+05:30"
         cq:name="header"
-        cq:parentPath="/content/dam/headless-shark/in/en/content-fragments"
+        cq:parentPath="/content/dam/headless-shark/in/fr/content-fragments"
         cq:translationSourcePath="/content/dam/headless-shark/in/en/content-fragments/header"
-        jcr:lastModified="{Date}2023-01-21T12:54:03.361+05:30"
+        jcr:lastModified="{Date}2023-01-21T18:58:40.266+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent"
         jcr:title="Header"
         contentFragment="{Boolean}true"
-        lastFragmentSave="{Date}2023-01-21T12:54:03.361+05:30">
+        lastFragmentSave="{Date}2023-01-21T18:58:40.266+05:30">
         <data
             cq:model="/conf/headless-shark/settings/dam/cfm/models/header-model"
             jcr:primaryType="nt:unstructured">
             <master
                 jcr:mixinTypes="[cq:Taggable,dam:cfVariationNode]"
                 jcr:primaryType="nt:unstructured"
-                cartLabel="Your Cart"
-                cartLabel_x0040_LastModified="{Date}2023-01-21T12:54:03.307+05:30"
+                cartLabel="Votre panier"
+                cartLabel_x0040_LastModified="{Date}2023-01-21T18:58:40.240+05:30"
                 image="/content/dam/headless-shark/in/en/assets/headlessshark.jpg"
                 image_x0040_LastModified="{Date}2023-01-21T12:54:03.307+05:30"
-                title="Headless Shark Shop"
-                title_x0040_LastModified="{Date}2023-01-21T12:54:03.306+05:30"/>
+                title="Headless Shark Magasin"
+                title_x0040_LastModified="{Date}2023-01-21T18:58:40.239+05:30"/>
         </data>
         <metadata
             jcr:mixinTypes="[cq:Taggable]"

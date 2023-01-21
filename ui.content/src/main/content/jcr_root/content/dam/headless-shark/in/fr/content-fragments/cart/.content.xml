@@ -9,24 +9,24 @@
         cq:lastModifiedBy="admin"
         cq:lastTranslationUpdate="{Date}2023-01-21T17:59:07.468+05:30"
         cq:name="cart"
-        cq:parentPath="/content/dam/headless-shark/in/en/content-fragments"
+        cq:parentPath="/content/dam/headless-shark/in/fr/content-fragments"
         cq:translationSourcePath="/content/dam/headless-shark/in/en/content-fragments/cart"
-        jcr:lastModified="{Date}2023-01-21T12:51:57.516+05:30"
+        jcr:lastModified="{Date}2023-01-21T19:00:19.589+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent"
         jcr:title="Cart"
         contentFragment="{Boolean}true"
-        lastFragmentSave="{Date}2023-01-21T12:51:57.516+05:30">
+        lastFragmentSave="{Date}2023-01-21T19:00:19.589+05:30">
         <data
             cq:model="/conf/headless-shark/settings/dam/cfm/models/cart"
             jcr:primaryType="nt:unstructured">
             <master
                 jcr:mixinTypes="[cq:Taggable,dam:cfVariationNode]"
                 jcr:primaryType="nt:unstructured"
-                closeButtonLabel="Close"
-                closeButtonLabel_x0040_LastModified="{Date}2023-01-21T12:51:57.500+05:30"
-                totalAmountLabel="Total Amount"
-                totalAmountLabel_x0040_LastModified="{Date}2023-01-21T12:51:57.499+05:30"/>
+                closeButtonLabel="Fermer"
+                closeButtonLabel_x0040_LastModified="{Date}2023-01-21T19:00:19.564+05:30"
+                totalAmountLabel="Montant total"
+                totalAmountLabel_x0040_LastModified="{Date}2023-01-21T19:00:19.564+05:30"/>
         </data>
         <metadata
             jcr:mixinTypes="[cq:Taggable]"

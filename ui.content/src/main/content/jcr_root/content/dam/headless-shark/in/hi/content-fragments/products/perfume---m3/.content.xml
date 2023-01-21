@@ -9,26 +9,26 @@
         cq:lastModifiedBy="admin"
         cq:lastTranslationUpdate="{Date}2023-01-21T18:03:08.558+05:30"
         cq:name="perfume---m3"
-        cq:parentPath="/content/dam/headless-shark/in/en/content-fragments/products"
+        cq:parentPath="/content/dam/headless-shark/in/hi/content-fragments/products"
         cq:translationSourcePath="/content/dam/headless-shark/in/en/content-fragments/products/perfume---m3"
-        jcr:lastModified="{Date}2023-01-21T12:57:16.308+05:30"
+        jcr:lastModified="{Date}2023-01-21T19:03:27.291+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent"
         jcr:title="Perfume - m3"
         contentFragment="{Boolean}true"
-        lastFragmentSave="{Date}2023-01-21T12:57:16.308+05:30">
+        lastFragmentSave="{Date}2023-01-21T19:03:27.291+05:30">
         <data
             cq:model="/conf/headless-shark/settings/dam/cfm/models/product"
             jcr:primaryType="nt:unstructured">
             <master
                 jcr:mixinTypes="[cq:Taggable,dam:cfVariationNode]"
                 jcr:primaryType="nt:unstructured"
-                description="Savour a soothing experience through the day with the vibrant fragrance from HS"
-                description_x0040_LastModified="{Date}2023-01-21T12:57:16.261+05:30"
+                description="HS की जीवंत सुगंध के साथ पूरे दिन सुखदायक अनुभव का आनंद लें"
+                description_x0040_LastModified="{Date}2023-01-21T19:03:27.263+05:30"
                 id="m3"
                 id_x0040_LastModified="{Date}2023-01-21T12:57:16.258+05:30"
-                name="Perfume"
-                name_x0040_LastModified="{Date}2023-01-21T12:57:16.259+05:30"/>
+                name="इत्र"
+                name_x0040_LastModified="{Date}2023-01-21T19:03:27.263+05:30"/>
         </data>
         <metadata
             jcr:mixinTypes="[cq:Taggable]"

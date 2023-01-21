@@ -9,22 +9,22 @@
         cq:lastModifiedBy="admin"
         cq:lastTranslationUpdate="{Date}2023-01-21T17:59:08.233+05:30"
         cq:name="airpods---m2"
-        cq:parentPath="/content/dam/headless-shark/in/en/content-fragments/products"
+        cq:parentPath="/content/dam/headless-shark/in/fr/content-fragments/products"
         cq:translationSourcePath="/content/dam/headless-shark/in/en/content-fragments/products/airpods---m2"
-        jcr:lastModified="{Date}2023-01-21T12:56:23.797+05:30"
+        jcr:lastModified="{Date}2023-01-21T19:00:43.672+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent"
         jcr:title="Airpods - m2"
         contentFragment="{Boolean}true"
-        lastFragmentSave="{Date}2023-01-21T12:56:23.797+05:30">
+        lastFragmentSave="{Date}2023-01-21T19:00:43.672+05:30">
         <data
             cq:model="/conf/headless-shark/settings/dam/cfm/models/product"
             jcr:primaryType="nt:unstructured">
             <master
                 jcr:mixinTypes="[cq:Taggable,dam:cfVariationNode]"
                 jcr:primaryType="nt:unstructured"
-                description="Delivers faster wireless connection to your devices"
-                description_x0040_LastModified="{Date}2023-01-21T12:56:23.743+05:30"
+                description="Fournit une connexion sans fil plus rapide à vos appareils"
+                description_x0040_LastModified="{Date}2023-01-21T19:00:43.650+05:30"
                 id="m2"
                 id_x0040_LastModified="{Date}2023-01-21T12:56:23.742+05:30"
                 name="Airpords HS"

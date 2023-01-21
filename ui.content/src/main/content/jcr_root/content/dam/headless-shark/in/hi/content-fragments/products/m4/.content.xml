@@ -9,26 +9,26 @@
         cq:lastModifiedBy="admin"
         cq:lastTranslationUpdate="{Date}2023-01-21T18:03:08.272+05:30"
         cq:name="m4"
-        cq:parentPath="/content/dam/headless-shark/in/en/content-fragments/products"
+        cq:parentPath="/content/dam/headless-shark/in/hi/content-fragments/products"
         cq:translationSourcePath="/content/dam/headless-shark/in/en/content-fragments/products/m4"
-        jcr:lastModified="{Date}2023-01-21T12:58:07.249+05:30"
+        jcr:lastModified="{Date}2023-01-21T19:04:22.877+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent"
         jcr:title="m4"
         contentFragment="{Boolean}true"
-        lastFragmentSave="{Date}2023-01-21T12:58:07.249+05:30">
+        lastFragmentSave="{Date}2023-01-21T19:04:22.877+05:30">
         <data
             cq:model="/conf/headless-shark/settings/dam/cfm/models/product"
             jcr:primaryType="nt:unstructured">
             <master
                 jcr:mixinTypes="[cq:Taggable,dam:cfVariationNode]"
                 jcr:primaryType="nt:unstructured"
-                description="Comes in a Beautifully Packed Box and a perfect gifting solution for all age groups"
-                description_x0040_LastModified="{Date}2023-01-21T12:58:07.218+05:30"
+                description="खूबसूरती से पैक किए गए बॉक्स में आता है और सभी आयु समूहों के लिए उपहार देने का एक आदर्श समाधान है"
+                description_x0040_LastModified="{Date}2023-01-21T19:04:22.837+05:30"
                 id="m4"
                 id_x0040_LastModified="{Date}2023-01-21T12:58:07.216+05:30"
-                name="Green Bowl"
-                name_x0040_LastModified="{Date}2023-01-21T12:58:07.217+05:30"/>
+                name="हरी कटोरी"
+                name_x0040_LastModified="{Date}2023-01-21T19:04:22.836+05:30"/>
         </data>
         <metadata
             jcr:mixinTypes="[cq:Taggable]"
