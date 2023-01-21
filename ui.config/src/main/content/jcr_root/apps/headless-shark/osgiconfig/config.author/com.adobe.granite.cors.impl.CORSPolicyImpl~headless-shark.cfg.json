@@ -1,8 +1,7 @@
 {
-  "alloworigin": ["http://localhost:3000"],
-  "allowedpaths": ["/(content|conf)/headless-shark.*"],
+  "alloworigin": ["*"],
+  "allowedpaths": ["/(content|conf)/headless-shark.*","/graphql/execute.json/.*"],
   "supportedheaders": [
-    "Authorization",
     "Origin",
     "Accept",
     "X-Requested-With",
