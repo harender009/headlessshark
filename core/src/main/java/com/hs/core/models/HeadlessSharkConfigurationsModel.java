@@ -7,6 +7,7 @@ import com.adobe.cq.export.json.ComponentExporter;
 import com.adobe.cq.export.json.ExporterConstants;
 import com.day.cq.commons.Externalizer;
 import com.day.cq.tagging.TagManager;
+import com.day.cq.wcm.api.Page;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.hs.core.configurations.HeadlessSharkConfigurationImpl;
 import com.hs.core.constants.GenericConstants;
@@ -30,6 +31,7 @@ import org.slf4j.LoggerFactory;
 
 import javax.annotation.PostConstruct;
 import javax.inject.Inject;
+import java.util.Locale;
 
 /**
  * @author nidhigurani
@@ -63,9 +65,12 @@ public class HeadlessSharkConfigurationsModel implements ComponentExporter {
 	
 	@Inject
 	private TagManager tagManager;
-	
+
 	@Inject
 	private Resource resource;
+
+	@Inject
+	private Page currentPage;
 	
 	@PostConstruct
 	protected void init() {
@@ -87,13 +92,8 @@ public class HeadlessSharkConfigurationsModel implements ComponentExporter {
 	}
 
 	public String getLocale() {
-		String locale = "";
-		try {
-			locale = resource.getPath().split("/")[4];
-		} catch (Exception e){
-
-		}
-		return locale;
+		Locale locale = currentPage.getLanguage();
+		return locale.toString();
 	}
 	
 	public String getMfApplicationName() {
