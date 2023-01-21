@@ -10,13 +10,13 @@
         cq:lastReplicationAction="Activate"
         cq:name="products"
         cq:parentPath="/content/dam/headless-shark/in/en/content-fragments/configuration/micrfrontend-mapping-configuration"
-        jcr:lastModified="{Date}2023-01-21T18:43:38.659+05:30"
+        jcr:lastModified="{Date}2023-01-21T23:41:26.818+05:30"
         jcr:lastModifiedBy="admin"
         jcr:mixinTypes="[cq:ReplicationStatus]"
         jcr:primaryType="dam:AssetContent"
         jcr:title="Products"
         contentFragment="{Boolean}true"
-        lastFragmentSave="{Date}2023-01-21T18:43:38.659+05:30">
+        lastFragmentSave="{Date}2023-01-21T23:41:26.818+05:30">
         <data
             cq:model="/conf/headless-shark/settings/dam/cfm/models/headless-shark-configuration-items"
             jcr:primaryType="nt:unstructured">
@@ -26,8 +26,8 @@
                 jcr:primaryType="nt:unstructured"
                 mfApplicationName="[hs:dynamic-components/mf-application/react-prod]"
                 mfApplicationName_x0040_LastModified="{Date}2023-01-21T18:43:38.585+05:30"
-                mfApplicationUrl="https://jade-custard-f3cba2.netlify.app"
-                mfApplicationUrl_x0040_LastModified="{Date}2023-01-21T18:43:38.587+05:30"/>
+                mfApplicationUrl="https://adorable-swan-1e3b9d.netlify.app"
+                mfApplicationUrl_x0040_LastModified="{Date}2023-01-21T23:41:26.799+05:30"/>
         </data>
         <metadata
             jcr:mixinTypes="[cq:Taggable]"

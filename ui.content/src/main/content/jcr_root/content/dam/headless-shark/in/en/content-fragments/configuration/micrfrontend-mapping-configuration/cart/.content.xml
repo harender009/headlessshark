@@ -10,13 +10,13 @@
         cq:lastReplicationAction="Activate"
         cq:name="cart"
         cq:parentPath="/content/dam/headless-shark/in/en/content-fragments/configuration/micrfrontend-mapping-configuration"
-        jcr:lastModified="{Date}2023-01-21T18:44:29.498+05:30"
+        jcr:lastModified="{Date}2023-01-21T23:40:59.270+05:30"
         jcr:lastModifiedBy="admin"
         jcr:mixinTypes="[cq:ReplicationStatus]"
         jcr:primaryType="dam:AssetContent"
         jcr:title="Cart"
         contentFragment="{Boolean}true"
-        lastFragmentSave="{Date}2023-01-21T18:44:29.498+05:30">
+        lastFragmentSave="{Date}2023-01-21T23:40:59.270+05:30">
         <data
             cq:model="/conf/headless-shark/settings/dam/cfm/models/headless-shark-configuration-items"
             jcr:primaryType="nt:unstructured">
@@ -26,8 +26,8 @@
                 jcr:primaryType="nt:unstructured"
                 mfApplicationName="[hs:dynamic-components/mf-application/react-cart]"
                 mfApplicationName_x0040_LastModified="{Date}2023-01-21T18:44:29.468+05:30"
-                mfApplicationUrl="https://unrivaled-cendol-7e6e4a.netlify.app"
-                mfApplicationUrl_x0040_LastModified="{Date}2023-01-21T18:44:29.469+05:30"/>
+                mfApplicationUrl="https://cute-wisp-91c089.netlify.app"
+                mfApplicationUrl_x0040_LastModified="{Date}2023-01-21T23:40:59.237+05:30"/>
         </data>
         <metadata
             jcr:mixinTypes="[cq:Taggable]"
